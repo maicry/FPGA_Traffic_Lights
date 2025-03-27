@@ -1,0 +1,104 @@
+[ START MERGED ]
+rst_n_c_i rst_n_c
+[ END MERGED ]
+[ START CLIPPED ]
+u_traffic_light/GND
+u_traffic_light/u_beeper/GND
+u_traffic_light/u_segment/GND
+u_detecter/u1/GND
+u_detecter/u2/GND
+u_detecter/u3/GND
+u_traffic_light/un2_clk_counter_s_23_0_S1
+u_traffic_light/un2_clk_counter_s_23_0_COUT
+u_traffic_light/u_beeper/freq_cnt_cry_0_S0[0]
+u_traffic_light/u_beeper/N_1
+u_traffic_light/u_beeper/freq_cnt_cry_0_COUT[13]
+u_traffic_light/u_beeper/un2_pulse_cnt_cry_0_0_S1_0
+u_traffic_light/u_beeper/un2_pulse_cnt_cry_0_0_S0_0
+u_traffic_light/u_beeper/N_2
+u_traffic_light/u_beeper/un2_pulse_cnt_cry_21_0_COUT_0
+u_traffic_light/u_segment/write_cnt_cry_0_S0[0]
+u_traffic_light/u_segment/N_1
+u_traffic_light/u_segment/write_cnt_s_0_S1[5]
+u_traffic_light/u_segment/write_cnt_s_0_COUT[5]
+u_traffic_light/u_segment/un3_clk_div_cnt_cry_0_0_S1
+u_traffic_light/u_segment/un3_clk_div_cnt_cry_0_0_S0
+u_traffic_light/u_segment/N_3
+u_traffic_light/u_segment/un3_clk_div_cnt_cry_7_0_COUT
+u_traffic_light/un2_clk_counter_cry_0_0_S1
+u_traffic_light/un2_clk_counter_cry_0_0_S0
+u_traffic_light/N_1
+u_detecter/u1/un5_clock_counter_cry_0_0_S1
+u_detecter/u1/un5_clock_counter_cry_0_0_S0
+u_detecter/u1/N_1
+u_detecter/u1/un5_clock_counter_s_9_0_S1
+u_detecter/u1/un5_clock_counter_s_9_0_COUT
+u_detecter/u1/un1_delay_timer_1_cry_0_0_S0
+u_detecter/u1/N_2
+u_detecter/u1/un1_delay_timer_1_s_23_0_S1
+u_detecter/u1/un1_delay_timer_1_s_23_0_COUT
+u_detecter/u2/un1_prox_dat1_1_cry_0_0_S1
+u_detecter/u2/un1_prox_dat1_1_cry_0_0_S0
+u_detecter/u2/N_1
+u_detecter/u2/un1_prox_dat1_1_cry_1_0_S1
+u_detecter/u2/un1_prox_dat1_1_cry_1_0_S0
+u_detecter/u2/un1_prox_dat1_1_cry_3_0_S1
+u_detecter/u2/un1_prox_dat1_1_cry_3_0_S0
+u_detecter/u2/un1_prox_dat1_1_cry_5_0_S1
+u_detecter/u2/un1_prox_dat1_1_cry_5_0_S0
+u_detecter/u2/un1_prox_dat1_1_cry_7_0_S1
+u_detecter/u2/un1_prox_dat1_1_cry_7_0_S0
+u_detecter/u2/un1_prox_dat1_1_cry_9_0_S0
+u_detecter/u2/un1_prox_dat1_1_s_15_0_S1
+u_detecter/u2/un1_prox_dat1_1_s_15_0_COUT
+u_detecter/u2/un1_prox_dat0_1_cry_0_0_S1
+u_detecter/u2/un1_prox_dat0_1_cry_0_0_S0
+u_detecter/u2/N_2
+u_detecter/u2/un1_prox_dat0_1_cry_1_0_S1
+u_detecter/u2/un1_prox_dat0_1_cry_1_0_S0
+u_detecter/u2/un1_prox_dat0_1_cry_3_0_S1
+u_detecter/u2/un1_prox_dat0_1_cry_3_0_S0
+u_detecter/u2/un1_prox_dat0_1_cry_5_0_S1
+u_detecter/u2/un1_prox_dat0_1_cry_5_0_S0
+u_detecter/u2/un1_prox_dat0_1_cry_7_0_S1
+u_detecter/u2/un1_prox_dat0_1_cry_7_0_S0
+u_detecter/u2/un1_prox_dat0_1_cry_9_0_S0
+u_detecter/u2/un1_prox_dat0_1_s_15_0_S1
+u_detecter/u2/un1_prox_dat0_1_s_15_0_COUT
+u_detecter/u3/freq_cnt_cry_0_S0_0[0]
+u_detecter/u3/N_1
+u_detecter/u3/freq_cnt_cry_0_COUT_0[13]
+u_detecter/u3/un2_pulse_cnt_cry_0_0_S1
+u_detecter/u3/un2_pulse_cnt_cry_0_0_S0
+u_detecter/u3/N_2
+u_detecter/u3/un2_pulse_cnt_cry_21_0_COUT
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.14.0.75.2 -- WARNING: Map write only section -- Mon Feb 24 10:03:01 2025
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "i2c_sda" SITE "B8" ;
+LOCATE COMP "red_light1" SITE "M2" ;
+LOCATE COMP "clk" SITE "C1" ;
+LOCATE COMP "led[7]" SITE "P9" ;
+LOCATE COMP "led[6]" SITE "N9" ;
+LOCATE COMP "led[5]" SITE "N10" ;
+LOCATE COMP "led[4]" SITE "P11" ;
+LOCATE COMP "led[3]" SITE "M11" ;
+LOCATE COMP "led[2]" SITE "P12" ;
+LOCATE COMP "led[1]" SITE "M12" ;
+LOCATE COMP "led[0]" SITE "N13" ;
+LOCATE COMP "i2c_scl" SITE "C8" ;
+LOCATE COMP "bee" SITE "N4" ;
+LOCATE COMP "seg_din" SITE "P13" ;
+LOCATE COMP "seg_sck" SITE "M4" ;
+LOCATE COMP "seg_rck" SITE "P3" ;
+LOCATE COMP "blue_light2" SITE "P4" ;
+LOCATE COMP "green_light2" SITE "N3" ;
+LOCATE COMP "red_light2" SITE "M3" ;
+LOCATE COMP "blue_light1" SITE "P2" ;
+LOCATE COMP "green_light1" SITE "N2" ;
+LOCATE COMP "rst_n" SITE "N14" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

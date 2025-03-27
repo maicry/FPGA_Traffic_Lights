@@ -1,0 +1,242 @@
+
+Lattice Place and Route Report for Design "LatticeDiamond__Fusion_impl1_map.ncd"
+Mon Feb 24 10:03:04 2025
+
+PAR: Place And Route Diamond (64-bit) 3.14.0.75.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF:parASE=1 LatticeDiamond__Fusion_impl1_map.ncd LatticeDiamond__Fusion_impl1.dir/5_1.ncd LatticeDiamond__Fusion_impl1.prf
+Preference file: LatticeDiamond__Fusion_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file LatticeDiamond__Fusion_impl1_map.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application par from file 'xo2c4000.nph' in environment: D:/Program Files/Lattice/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   22+4(JTAG)/280     9% used
+                  22+4(JTAG)/105     25% bonded
+   IOLOGIC            7/280           2% used
+
+   SLICE            285/2160         13% used
+
+   GSR                1/1           100% used
+
+
+Number of Signals: 938
+Number of Connections: 2204
+WARNING - par: Placement timing preferences are hard to meet. However, placement will continue. Use static timing analysis to identify errors.
+
+Pin Constraint Summary:
+   22 out of 22 pins locked (100% locked).
+
+The following 4 signals are selected to use the primary clock routing resources:
+    clk_c (driver: clk, clk load #: 87)
+    u_detecter.u1.phase_clock (driver: u_detecter/u1/SLICE_102, clk load #: 75)
+    u_detecter/dat_valid (driver: u_detecter/u1/SLICE_103, clk load #: 21)
+    u_traffic_light.u_segment.un5_clk_40_i_i (driver: u_traffic_light/u_segment/SLICE_289, clk load #: 16)
+
+WARNING - par: Signal "clk_c" is selected to use Primary clock resources. However, its driver comp "clk" is located at "C1", which is not a dedicated pin for connecting to Primary clock resources. General routing has to be used to route this signal, and it might suffer from excessive delay or skew.
+
+No signal is selected as secondary clock.
+
+Signal rst_n_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+............
+Finished Placer Phase 0.  REAL time: 0 secs 
+
+Starting Placer Phase 1.
+................
+Placer score = 997311.
+Finished Placer Phase 1.  REAL time: 3 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  1007363
+Finished Placer Phase 2.  REAL time: 3 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  General PIO: 1 out of 280 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "clk_c" from comp "clk" on PIO site "C1 (PL4A)", clk load = 87
+  PRIMARY "u_detecter.u1.phase_clock" from Q0 on comp "u_detecter/u1/SLICE_102" on site "R2C16D", clk load = 75
+  PRIMARY "u_detecter/dat_valid" from Q0 on comp "u_detecter/u1/SLICE_103" on site "R12C2C", clk load = 21
+  PRIMARY "u_traffic_light.u_segment.un5_clk_40_i_i" from F0 on comp "u_traffic_light/u_segment/SLICE_289" on site "R2C16A", clk load = 16
+
+  PRIMARY  : 4 out of 8 (50%)
+  SECONDARY: 0 out of 8 (0%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   22 + 4(JTAG) out of 280 (9.3%) PIO sites used.
+   22 + 4(JTAG) out of 105 (24.8%) bonded PIO sites used.
+   Number of PIO comps: 22; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 2 / 26 (  7%)  | 2.5V       | -         |
+| 1        | 3 / 26 ( 11%)  | 2.5V       | -         |
+| 2        | 15 / 28 ( 53%) | 2.5V       | -         |
+| 3        | 1 / 7 ( 14%)   | 2.5V       | -         |
+| 4        | 0 / 8 (  0%)   | -          | -         |
+| 5        | 1 / 10 ( 10%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 2 secs 
+
+Dumping design to file LatticeDiamond__Fusion_impl1.dir/5_1.ncd.
+
+0 connections routed; 2204 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 4 secs 
+
+Start NBR router at 10:03:08 02/24/25
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 10:03:08 02/24/25
+
+Start NBR section for initial routing at 10:03:08 02/24/25
+Level 1, iteration 1
+0(0.00%) conflict; 1653(75.00%) untouched conns; 64844570 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2164.606ns/-64844.570ns; real time: 4 secs 
+Level 2, iteration 1
+2(0.00%) conflicts; 1650(74.86%) untouched conns; 64495148 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2160.284ns/-64495.148ns; real time: 4 secs 
+Level 3, iteration 1
+0(0.00%) conflict; 1650(74.86%) untouched conns; 64585794 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2164.066ns/-64585.794ns; real time: 4 secs 
+Level 4, iteration 1
+48(0.02%) conflicts; 0(0.00%) untouched conn; 66173905 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2208.906ns/-66173.906ns; real time: 5 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 10:03:09 02/24/25
+Level 4, iteration 1
+28(0.01%) conflicts; 0(0.00%) untouched conn; 63398485 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2163.256ns/-63398.485ns; real time: 5 secs 
+Level 4, iteration 2
+13(0.01%) conflicts; 0(0.00%) untouched conn; 64720673 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2204.449ns/-64720.673ns; real time: 5 secs 
+Level 4, iteration 3
+5(0.00%) conflicts; 0(0.00%) untouched conn; 63531796 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63531.796ns; real time: 5 secs 
+Level 4, iteration 4
+4(0.00%) conflicts; 0(0.00%) untouched conn; 63531796 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63531.796ns; real time: 5 secs 
+Level 4, iteration 5
+2(0.00%) conflicts; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+Level 4, iteration 6
+2(0.00%) conflicts; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+Level 4, iteration 7
+2(0.00%) conflicts; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+Level 4, iteration 8
+1(0.00%) conflict; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+Level 4, iteration 9
+0(0.00%) conflict; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+
+Start NBR section for performance tuning (iteration 1) at 10:03:09 02/24/25
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+
+Start NBR section for re-routing at 10:03:09 02/24/25
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 63730408 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -2166.902ns/-63730.408ns; real time: 5 secs 
+
+Start NBR section for post-routing at 10:03:09 02/24/25
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 781 (35.44%)
+  Estimated worst slack<setup> : -2166.902ns
+  Timing score<setup> : 202951807
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 5 secs 
+Total REAL time: 6 secs 
+Completely routed.
+End of route.  2204 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 174, hold timing errors: 62
+
+Timing score: 202951807 
+
+Dumping design to file LatticeDiamond__Fusion_impl1.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = -2166.903
+PAR_SUMMARY::Timing score<setup/<ns>> = 202951.807
+PAR_SUMMARY::Worst  slack<hold /<ns>> = -3.636
+PAR_SUMMARY::Timing score<hold /<ns>> = 174.510
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 5 secs 
+Total REAL time to completion: 6 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.

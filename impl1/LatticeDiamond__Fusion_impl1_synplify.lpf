@@ -1,0 +1,27 @@
+#
+# Logical Preferences generated for Lattice by Synplify map202309lat, Build 191R.
+#
+
+# Period Constraints 
+#FREQUENCY PORT "clk" 100.0 MHz;
+#FREQUENCY NET "u_detecter/u1/phase_clock" 100.0 MHz;
+#FREQUENCY NET "u_detecter/u1/dat_valid" 100.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+#MULTICYCLE FROM CLKNET "u_detecter/u1/phase_clock"  TO CLKNET "u_detecter/u1/phase_clock"  2X;
+#MULTICYCLE FROM CLKNET "u_detecter/u1/phase_clock"  TO CLKNET "u_detecter/u1/phase_clock"  1X;
+#MULTICYCLE FROM CLKNET "u_detecter/u1/dat_valid"  TO CLKNET "u_detecter/u1/dat_valid"  2X;
+#MULTICYCLE FROM CLKNET "u_detecter/u1/dat_valid"  TO CLKNET "u_detecter/u1/dat_valid"  1X;
+
+
+# Block Path Constraints 
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

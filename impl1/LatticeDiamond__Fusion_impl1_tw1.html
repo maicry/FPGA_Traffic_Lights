@@ -1,0 +1,626 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file latticediamond__fusion_impl1_map.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 4
+Loading device for application trce from file 'xo2c4000.nph' in environment: D:/Program Files/Lattice/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.14.0.75.2</big></U></B>
+Mon Feb 24 10:03:01 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o LatticeDiamond__Fusion_impl1.tw1 -gui LatticeDiamond__Fusion_impl1_map.ncd LatticeDiamond__Fusion_impl1.prf 
+Design file:     latticediamond__fusion_impl1_map.ncd
+Preference file: latticediamond__fusion_impl1.prf
+Device,speed:    LCMXO2-4000HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<FONT COLOR=red><LI><A href='#map_twr_pref_0_0' Target='right'><FONT COLOR=red>FREQUENCY NET "clk_c" 148.082000 MHz (3411 errors)</FONT></A></LI>
+</FONT>            4096 items scored, 3411 timing errors detected.
+Warning:   1.157MHz is the maximum frequency for this preference.
+
+<FONT COLOR=red><LI><A href='#map_twr_pref_0_1' Target='right'><FONT COLOR=red>FREQUENCY NET "u_detecter.u1.phase_clock" 170.882000 MHz (452 errors)</FONT></A></LI>
+</FONT>            1728 items scored, 452 timing errors detected.
+Warning: 111.383MHz is the maximum frequency for this preference.
+
+<FONT COLOR=red><LI><A href='#map_twr_pref_0_2' Target='right'><FONT COLOR=red>FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz (1596 errors)</FONT></A></LI>
+</FONT>            1661 items scored, 1596 timing errors detected.
+Warning:   7.701MHz is the maximum frequency for this preference.
+
+<FONT COLOR=red><LI><A href='#map_twr_pref_0_3' Target='right'><FONT COLOR=red>FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz (227 errors)</FONT></A></LI>
+</FONT>            370 items scored, 227 timing errors detected.
+Warning:  13.005MHz is the maximum frequency for this preference.
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "clk_c" 148.082000 MHz ;
+            4096 items scored, 3411 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 6.351ns (weighted slack = -857.766ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_detecter/u2/prox_dat2[11]  (from u_detecter/dat_valid +)
+   Destination:    FF         Data in        u_detecter/u3/beeper_freq  (to clk_c +)
+
+   Delay:               6.119ns  (31.7% logic, 68.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      6.119ns physical path delay SLICE_196 to u_detecter/SLICE_199 exceeds
+      (delay constraint based on source clock period of 6.703ns and destination clock period of 6.753ns)
+      0.050ns delay constraint less
+      0.282ns CE_SET requirement (totaling -0.232ns) by 6.351ns
+
+ Physical Path Details:
+
+      Data path SLICE_196 to u_detecter/SLICE_199:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452  SLICE_196.CLK to   SLICE_196.Q0 SLICE_196 (from u_detecter/dat_valid)
+ROUTE         2   e 1.234   SLICE_196.Q0 to */SLICE_256.C0 u_detecter/u2/prox_dat2[11]
+CTOF_DEL    ---     0.495 */SLICE_256.C0 to */SLICE_256.F0 u_detecter/u2/SLICE_256
+ROUTE         6   e 1.234 */SLICE_256.F0 to */SLICE_250.A1 led_c[0]
+CTOF_DEL    ---     0.495 */SLICE_250.A1 to */SLICE_250.F1 u_detecter/SLICE_250
+ROUTE         3   e 0.480 */SLICE_250.F1 to */SLICE_250.A0 u_detecter/prox_dat2_RNIQLKC11_0[12]
+CTOF_DEL    ---     0.495 */SLICE_250.A0 to */SLICE_250.F0 u_detecter/SLICE_250
+ROUTE         1   e 1.234 */SLICE_250.F0 to */SLICE_199.CE u_detecter/u3/beeper_freq_0_sqmuxa_i (to clk_c)
+                  --------
+                    6.119   (31.7% logic, 68.3% route), 4 logic levels.
+
+Warning:   1.157MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_1"></A>Preference: FREQUENCY NET "u_detecter.u1.phase_clock" 170.882000 MHz ;
+            1728 items scored, 452 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 3.126ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_detecter/u1/step_counter_1[1]  (from u_detecter.u1.phase_clock +)
+   Destination:    FF         Data in        u_detecter/u1/i2c_data_bus  (to u_detecter.u1.phase_clock +)
+
+   Delay:               8.812ns  (38.5% logic, 61.5% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.812ns physical path delay u_detecter/u1/SLICE_172 to u_detecter/u1/SLICE_101 exceeds
+      5.852ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 5.686ns) by 3.126ns
+
+ Physical Path Details:
+
+      Data path u_detecter/u1/SLICE_172 to u_detecter/u1/SLICE_101:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452 *SLICE_172.CLK to */SLICE_172.Q0 u_detecter/u1/SLICE_172 (from u_detecter.u1.phase_clock)
+ROUTE         6   e 1.234 */SLICE_172.Q0 to */SLICE_113.A1 u_detecter/u1/un23_axb1
+CTOF_DEL    ---     0.495 */SLICE_113.A1 to */SLICE_113.F1 u_detecter/u1/SLICE_113
+ROUTE         6   e 1.234 */SLICE_113.F1 to */SLICE_239.A1 u_detecter/u1/un23_ac0_3
+CTOOFX_DEL  ---     0.721 */SLICE_239.A1 to *LICE_239.OFX0 u_detecter/u1/i2c_data_bus_3_1_5/SLICE_239
+ROUTE         1   e 0.001 *LICE_239.OFX0 to *SLICE_239.FXB u_detecter/u1/N_320
+FXTOOFX_DE  ---     0.241 *SLICE_239.FXB to *LICE_239.OFX1 u_detecter/u1/i2c_data_bus_3_1_5/SLICE_239
+ROUTE         1   e 1.234 *LICE_239.OFX1 to */SLICE_259.B0 u_detecter/u1/i2c_data_bus_3_1
+CTOF_DEL    ---     0.495 */SLICE_259.B0 to */SLICE_259.F0 u_detecter/u1/SLICE_259
+ROUTE         1   e 1.234 */SLICE_259.F0 to */SLICE_101.D1 u_detecter/u1/un1_i2c_data_bus
+CTOF_DEL    ---     0.495 */SLICE_101.D1 to */SLICE_101.F1 u_detecter/u1/SLICE_101
+ROUTE         1   e 0.480 */SLICE_101.F1 to */SLICE_101.B0 u_detecter/u1/i2c_data_bus_4_1
+CTOF_DEL    ---     0.495 */SLICE_101.B0 to */SLICE_101.F0 u_detecter/u1/SLICE_101
+ROUTE         1   e 0.001 */SLICE_101.F0 to *SLICE_101.DI0 u_detecter/u1/i2c_data_bus_8_0_iv_i (to u_detecter.u1.phase_clock)
+                  --------
+                    8.812   (38.5% logic, 61.5% route), 7 logic levels.
+
+Warning: 111.383MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_2"></A>Preference: FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz ;
+            1661 items scored, 1596 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 1.929ns (weighted slack = -123.144ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_detecter/u1/proximity_data[2]  (from u_detecter.u1.phase_clock +)
+   Destination:    FF         Data in        u_detecter/u2/prox_dat0[2]  (to u_detecter/dat_valid +)
+
+   Delay:               1.686ns  (26.8% logic, 73.2% route), 1 logic levels.
+
+ Constraint Details:
+
+      1.686ns physical path delay u_detecter/u1/SLICE_299 to u_detecter/u2/SLICE_21 exceeds
+      (delay constraint based on source clock period of 5.852ns and destination clock period of 6.703ns)
+      0.105ns delay constraint less
+      0.348ns M_SET requirement (totaling -0.243ns) by 1.929ns
+
+ Physical Path Details:
+
+      Data path u_detecter/u1/SLICE_299 to u_detecter/u2/SLICE_21:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452 *SLICE_299.CLK to */SLICE_299.Q0 u_detecter/u1/SLICE_299 (from u_detecter.u1.phase_clock)
+ROUTE         1   e 1.234 */SLICE_299.Q0 to *2/SLICE_21.M0 u_detecter/prox_dat[2] (to u_detecter/dat_valid)
+                  --------
+                    1.686   (26.8% logic, 73.2% route), 1 logic levels.
+
+Warning:   7.701MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_3"></A>Preference: FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz ;
+            370 items scored, 227 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error: The following path exceeds requirements by 3.834ns (weighted slack = -72.310ns)
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_traffic_light/countdown_timer[3]  (from clk_c +)
+   Destination:    FF         Data in        u_traffic_light/u_segment/shift_data[9]  (to u_traffic_light.u_segment.un5_clk_40_i_i +)
+
+   Delay:               3.911ns  (36.9% logic, 63.1% route), 3 logic levels.
+
+ Constraint Details:
+
+      3.911ns physical path delay u_traffic_light/SLICE_209 to u_traffic_light/u_segment/SLICE_233 exceeds
+      (delay constraint based on source clock period of 6.753ns and destination clock period of 4.583ns)
+      0.243ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 0.077ns) by 3.834ns
+
+ Physical Path Details:
+
+      Data path u_traffic_light/SLICE_209 to u_traffic_light/u_segment/SLICE_233:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452 *SLICE_209.CLK to */SLICE_209.Q0 u_traffic_light/SLICE_209 (from clk_c)
+ROUTE        13   e 1.234 */SLICE_209.Q0 to */SLICE_314.C0 u_traffic_light/CO1_3
+CTOF_DEL    ---     0.495 */SLICE_314.C0 to */SLICE_314.F0 u_traffic_light/SLICE_314
+ROUTE         2   e 1.234 */SLICE_314.F0 to */SLICE_233.A1 u_traffic_light/N_7
+CTOF_DEL    ---     0.495 */SLICE_233.A1 to */SLICE_233.F1 u_traffic_light/u_segment/SLICE_233
+ROUTE         1   e 0.001 */SLICE_233.F1 to *SLICE_233.DI1 u_traffic_light/u_segment/N_162 (to u_traffic_light.u_segment.un5_clk_40_i_i)
+                  --------
+                    3.911   (36.9% logic, 63.1% route), 3 logic levels.
+
+Warning:  13.005MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_c" 148.082000 MHz ;  |  148.082 MHz|    1.157 MHz|   4 *
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"u_detecter.u1.phase_clock" 170.882000  |             |             |
+MHz ;                                   |  170.882 MHz|  111.383 MHz|   7 *
+                                        |             |             |
+FREQUENCY NET "u_detecter/dat_valid"    |             |             |
+149.187000 MHz ;                        |  149.187 MHz|    7.701 MHz|   1 *
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"u_traffic_light.u_segment.un5_clk_40_i_|             |             |
+i" 218.198000 MHz ;                     |  218.198 MHz|   13.005 MHz|   3 *
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+4 preferences(marked by "*" above) not met.
+
+----------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+----------------------------------------------------------------------------
+u_traffic_light/u_beeper/freq_cnt       |      17|    1624|     28.56%
+                                        |        |        |
+u_detecter/u2/prox_dat23_i              |       5|    1580|     27.79%
+                                        |        |        |
+u_detecter/u3/freq_cnt                  |      17|    1345|     23.65%
+                                        |        |        |
+u_detecter/u3/freq_cnt14lt12            |       1|    1291|     22.70%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt14lt12 |       1|    1288|     22.65%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt14lt8  |       1|     952|     16.74%
+                                        |        |        |
+u_detecter/u3/freq_cnt14lt8             |       1|     952|     16.74%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt_cry[6]|       1|     832|     14.63%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt_cry[4]|       1|     780|     13.72%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt_cry[8]|       1|     780|     13.72%
+                                        |        |        |
+u_detecter/u3/freq_cnt_cry[6]           |       1|     694|     12.21%
+                                        |        |        |
+u_detecter/u3/freq_cnt_cry[4]           |       1|     654|     11.50%
+                                        |        |        |
+u_detecter/u3/freq_cnt_cry[8]           |       1|     654|     11.50%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt_cry[2]|       1|     624|     10.97%
+                                        |        |        |
+u_traffic_light/u_beeper/freq_cnt_cry[10|        |        |
+]                                       |       1|     624|     10.97%
+                                        |        |        |
+u_detecter/u2/prox_dat23_8              |       1|     580|     10.20%
+                                        |        |        |
+----------------------------------------------------------------------------
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 4 clocks:
+
+Clock Domain: u_traffic_light.u_segment.un5_clk_40_i_i   Source: u_traffic_light/u_segment/SLICE_289.F0   Loads: 16
+   Covered under: FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk_c   Source: clk.PAD
+      Covered under: FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz ;   Transfers: 4
+
+Clock Domain: u_detecter/dat_valid   Source: u_detecter/u1/SLICE_103.Q0   Loads: 22
+   Covered under: FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz ;
+
+   Data transfers from:
+   Clock Domain: u_detecter.u1.phase_clock   Source: u_detecter/u1/SLICE_102.Q0
+      Covered under: FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz ;   Transfers: 16
+
+Clock Domain: u_detecter.u1.phase_clock   Source: u_detecter/u1/SLICE_102.Q0   Loads: 76
+   Covered under: FREQUENCY NET "u_detecter.u1.phase_clock" 170.882000 MHz ;
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 87
+   Covered under: FREQUENCY NET "clk_c" 148.082000 MHz ;
+
+   Data transfers from:
+   Clock Domain: u_detecter/dat_valid   Source: u_detecter/u1/SLICE_103.Q0
+      Covered under: FREQUENCY NET "clk_c" 148.082000 MHz ;   Transfers: 9
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 5686  Score: 80320762
+Cumulative negative slack: 80320762
+
+Constraints cover 10062 paths, 6 nets, and 2146 connections (97.37% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.14.0.75.2</big></U></B>
+Mon Feb 24 10:03:02 2025
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o LatticeDiamond__Fusion_impl1.tw1 -gui LatticeDiamond__Fusion_impl1_map.ncd LatticeDiamond__Fusion_impl1.prf 
+Design file:     latticediamond__fusion_impl1_map.ncd
+Preference file: latticediamond__fusion_impl1.prf
+Device,speed:    LCMXO2-4000HC,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "clk_c" 148.082000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_1' Target='right'>FREQUENCY NET "u_detecter.u1.phase_clock" 170.882000 MHz (0 errors)</A></LI>            1728 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_2' Target='right'>FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz (0 errors)</A></LI>            1661 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_3' Target='right'>FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz (0 errors)</A></LI>            370 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "clk_c" 148.082000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_traffic_light/u_beeper/beeper_freq  (from clk_c +)
+   Destination:    FF         Data in        u_traffic_light/u_beeper/beeper_freq  (to clk_c +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_218 to SLICE_218 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_218 to SLICE_218:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133  SLICE_218.CLK to   SLICE_218.Q0 SLICE_218 (from clk_c)
+ROUTE         2   e 0.199   SLICE_218.Q0 to   SLICE_218.B0 u_traffic_light/u_beeper/beeper_freq
+CTOF_DEL    ---     0.101   SLICE_218.B0 to   SLICE_218.F0 SLICE_218
+ROUTE         1   e 0.001   SLICE_218.F0 to  SLICE_218.DI0 u_traffic_light/u_beeper/beeper_freq_4 (to clk_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_1"></A>Preference: FREQUENCY NET "u_detecter.u1.phase_clock" 170.882000 MHz ;
+            1728 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_detecter/u1/main_phase[0]  (from u_detecter.u1.phase_clock +)
+   Destination:    FF         Data in        u_detecter/u1/main_phase[1]  (to u_detecter.u1.phase_clock +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay u_detecter/u1/SLICE_145 to u_detecter/u1/SLICE_145 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path u_detecter/u1/SLICE_145 to u_detecter/u1/SLICE_145:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 *SLICE_145.CLK to */SLICE_145.Q0 u_detecter/u1/SLICE_145 (from u_detecter.u1.phase_clock)
+ROUTE        12   e 0.199 */SLICE_145.Q0 to */SLICE_145.A1 u_detecter/u1/main_phase[0]
+CTOF_DEL    ---     0.101 */SLICE_145.A1 to */SLICE_145.F1 u_detecter/u1/SLICE_145
+ROUTE         1   e 0.001 */SLICE_145.F1 to *SLICE_145.DI1 u_detecter/u1/N_72_i (to u_detecter.u1.phase_clock)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_2"></A>Preference: FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz ;
+            1661 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.667ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_detecter/u2/prox_dat0[11]  (from u_detecter/dat_valid +)
+   Destination:    FF         Data in        u_detecter/u2/prox_dat1[11]  (to u_detecter/dat_valid +)
+
+   Delay:               0.648ns  (20.5% logic, 79.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.648ns physical path delay u_detecter/u2/SLICE_255 to u_detecter/u2/SLICE_23 meets
+     -0.019ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.019ns) by 0.667ns
+
+ Physical Path Details:
+
+      Data path u_detecter/u2/SLICE_255 to u_detecter/u2/SLICE_23:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 *SLICE_255.CLK to */SLICE_255.Q0 u_detecter/u2/SLICE_255 (from u_detecter/dat_valid)
+ROUTE         4   e 0.515 */SLICE_255.Q0 to *2/SLICE_23.M0 u_detecter/u2/prox_dat0[11] (to u_detecter/dat_valid)
+                  --------
+                    0.648   (20.5% logic, 79.5% route), 1 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_3"></A>Preference: FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz ;
+            370 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_traffic_light/u_segment/main_cnt[0]  (from u_traffic_light.u_segment.un5_clk_40_i_i +)
+   Destination:    FF         Data in        u_traffic_light/u_segment/main_cnt[1]  (to u_traffic_light.u_segment.un5_clk_40_i_i +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay u_traffic_light/u_segment/SLICE_229 to u_traffic_light/u_segment/SLICE_229 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path u_traffic_light/u_segment/SLICE_229 to u_traffic_light/u_segment/SLICE_229:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133 *SLICE_229.CLK to */SLICE_229.Q0 u_traffic_light/u_segment/SLICE_229 (from u_traffic_light.u_segment.un5_clk_40_i_i)
+ROUTE         6   e 0.199 */SLICE_229.Q0 to */SLICE_229.A1 u_traffic_light/u_segment/main_cnt[0]
+CTOF_DEL    ---     0.101 */SLICE_229.A1 to */SLICE_229.F1 u_traffic_light/u_segment/SLICE_229
+ROUTE         1   e 0.001 */SLICE_229.F1 to *SLICE_229.DI1 u_traffic_light/u_segment/main_cnt_3[1] (to u_traffic_light.u_segment.un5_clk_40_i_i)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "clk_c" 148.082000 MHz ;  |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"u_detecter.u1.phase_clock" 170.882000  |             |             |
+MHz ;                                   |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+FREQUENCY NET "u_detecter/dat_valid"    |             |             |
+149.187000 MHz ;                        |     0.000 ns|     0.667 ns|   1  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"u_traffic_light.u_segment.un5_clk_40_i_|             |             |
+i" 218.198000 MHz ;                     |     0.000 ns|     0.447 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 4 clocks:
+
+Clock Domain: u_traffic_light.u_segment.un5_clk_40_i_i   Source: u_traffic_light/u_segment/SLICE_289.F0   Loads: 16
+   Covered under: FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz ;
+
+   Data transfers from:
+   Clock Domain: clk_c   Source: clk.PAD
+      Covered under: FREQUENCY NET "u_traffic_light.u_segment.un5_clk_40_i_i" 218.198000 MHz ;   Transfers: 4
+
+Clock Domain: u_detecter/dat_valid   Source: u_detecter/u1/SLICE_103.Q0   Loads: 22
+   Covered under: FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz ;
+
+   Data transfers from:
+   Clock Domain: u_detecter.u1.phase_clock   Source: u_detecter/u1/SLICE_102.Q0
+      Covered under: FREQUENCY NET "u_detecter/dat_valid" 149.187000 MHz ;   Transfers: 16
+
+Clock Domain: u_detecter.u1.phase_clock   Source: u_detecter/u1/SLICE_102.Q0   Loads: 76
+   Covered under: FREQUENCY NET "u_detecter.u1.phase_clock" 170.882000 MHz ;
+
+Clock Domain: clk_c   Source: clk.PAD   Loads: 87
+   Covered under: FREQUENCY NET "clk_c" 148.082000 MHz ;
+
+   Data transfers from:
+   Clock Domain: u_detecter/dat_valid   Source: u_detecter/u1/SLICE_103.Q0
+      Covered under: FREQUENCY NET "clk_c" 148.082000 MHz ;   Transfers: 9
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 10062 paths, 6 nets, and 2158 connections (97.91% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 5686 (setup), 0 (hold)
+Score: 80320762 (setup), 0 (hold)
+Cumulative negative slack: 80320762 (80320762+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

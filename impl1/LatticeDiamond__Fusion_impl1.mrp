@@ -1,0 +1,468 @@
+
+        Lattice Mapping Report File for Design Module 'merged_system'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial
+     LatticeDiamond__Fusion_impl1.ngd -o LatticeDiamond__Fusion_impl1_map.ncd
+     -pr LatticeDiamond__Fusion_impl1.prf -mp LatticeDiamond__Fusion_impl1.mrp
+     -lpf D:/Data/Desktop/Cyberspace 2024-2025/ProjectCode/LatticeDiamond__Fusio
+     n/impl1/LatticeDiamond__Fusion_impl1_synplify.lpf -lpf
+     D:/Data/Desktop/Cyberspace
+     2024-2025/ProjectCode/LatticeDiamond__Fusion/LatticeDiamond__Fusion.lpf -c
+     0 -gui 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCCSBGA132
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.14.0.75.2
+Mapped on:  02/24/25  10:03:00
+
+Design Summary
+--------------
+
+   Number of registers:    326 out of  4635 (7%)
+      PFU registers:          319 out of  4320 (7%)
+      PIO registers:            7 out of   315 (2%)
+   Number of SLICEs:       285 out of  2160 (13%)
+      SLICEs as Logic/ROM:    285 out of  2160 (13%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:         99 out of  2160 (5%)
+   Number of LUT4s:        566 out of  4320 (13%)
+      Number used as logic LUTs:        368
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      198
+      Number used as shift registers:     0
+   Number of PIO sites used: 22 + 4(JTAG) out of 105 (25%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  4
+
+                                    Page 1
+
+
+
+
+Design:  merged_system                                 Date:  02/24/25  10:03:00
+
+Design Summary (cont)
+---------------------
+     Net clk_c: 87 loads, 87 rising, 0 falling (Driver: PIO clk )
+     Net u_detecter.u1.phase_clock: 75 loads, 75 rising, 0 falling (Driver:
+     u_detecter/u1/phase_clock )
+     Net u_detecter/dat_valid: 21 loads, 21 rising, 0 falling (Driver:
+     u_detecter/u1/data_valid )
+     Net u_traffic_light.u_segment.un5_clk_40_i_i: 16 loads, 16 rising, 0
+     falling (Driver: u_traffic_light/u_segment/un5_clk_40lto4_RNII2HLO )
+   Number of Clock Enables:  38
+     Net u_traffic_light.sec_pulse: 3 loads, 1 LSLICEs
+     Net read_bufferce[7]: 1 loads, 0 LSLICEs
+     Net un1_i2c_data_clk_2_sqmuxa: 1 loads, 0 LSLICEs
+     Net u_detecter/u3/pulse_cnt14lt22_i: 1 loads, 1 LSLICEs
+     Net u_detecter/N_71_i: 8 loads, 8 LSLICEs
+     Net u_detecter/u3/beeper_freq_0_sqmuxa_i: 1 loads, 1 LSLICEs
+     Net u_detecter/u2/prox_dat23_i: 5 loads, 5 LSLICEs
+     Net u_detecter/u1/N_144_i: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/current_state[5]: 2 loads, 2 LSLICEs
+     Net u_detecter/u1/read_buffer_RNO[0]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/current_state[1]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/un1_clock_counter18_i: 4 loads, 4 LSLICEs
+     Net u_detecter/u1/current_state[6]: 2 loads, 2 LSLICEs
+     Net u_detecter/u1/N_102: 2 loads, 2 LSLICEs
+     Net u_detecter/u1/un1_current_state_15_i: 2 loads, 2 LSLICEs
+     Net u_detecter/u1/read_bufferce[1]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/read_bufferce[2]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/read_bufferce[3]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/read_bufferce[4]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/read_bufferce[5]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/read_bufferce[6]: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/proximity_data_1_sqmuxa: 8 loads, 8 LSLICEs
+     Net u_detecter/u1/N_146_i: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/N_148_i: 3 loads, 3 LSLICEs
+     Net u_detecter/u1/N_126_i: 2 loads, 2 LSLICEs
+     Net u_detecter/u1/low_reg_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net u_detecter/u1/un1_current_state_18_i: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/un1_current_state_19_i: 1 loads, 1 LSLICEs
+     Net u_detecter/u1/high_reg_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net u_detecter/u1/un39_i: 1 loads, 1 LSLICEs
+     Net u_traffic_light/beeper_en: 8 loads, 8 LSLICEs
+     Net u_traffic_light/u_segment/shift_data_1_sqmuxa: 6 loads, 6 LSLICEs
+     Net u_traffic_light/u_segment/write_cnte: 4 loads, 4 LSLICEs
+     Net un1_state_5_0: 1 loads, 0 LSLICEs
+     Net un1_state_3_0_a2: 1 loads, 0 LSLICEs
+     Net un1_state_2_0_a2: 1 loads, 0 LSLICEs
+     Net u_traffic_light/u_beeper/pulse_cnt14lt22_i: 1 loads, 1 LSLICEs
+     Net u_traffic_light/u_beeper/beeper_freq_0_sqmuxa_i: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net rst_n_c merged into GSR:  265
+   Number of LSRs:  2
+     Net u_detecter/u1/stop_phase_0_sqmuxa: 2 loads, 2 LSLICEs
+     Net u_traffic_light/u_segment/main_cnt_RNIFAU2R[2]: 3 loads, 3 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net u_detecter/u1/delay_timer_0_sqmuxa: 25 loads
+     Net u_detecter/u1/current_state[0]: 17 loads
+     Net u_detecter/u1/current_state[6]: 17 loads
+     Net u_detecter/u3/freq_cnt: 17 loads
+
+                                    Page 2
+
+
+
+
+Design:  merged_system                                 Date:  02/24/25  10:03:00
+
+Design Summary (cont)
+---------------------
+     Net u_traffic_light/u_beeper/freq_cnt: 17 loads
+     Net u_detecter/u1/current_state[3]: 15 loads
+     Net u_detecter/u1/mode2_phase[0]: 15 loads
+     Net u_detecter/u1/current_state[5]: 14 loads
+     Net u_detecter/u1/main_phase[1]: 14 loads
+     Net u_detecter/u1/mode2_phase[1]: 14 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Using local reset signal 'rst_n_c' to infer global GSR net.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| i2c_sda             | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| red_light1          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| clk                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[7]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[6]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[5]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[4]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| i2c_scl             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| bee                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| seg_din             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| seg_sck             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  merged_system                                 Date:  02/24/25  10:03:00
+
+IO (PIO) Attributes (cont)
+--------------------------
+| seg_rck             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| blue_light2         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| green_light2        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| red_light2          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| blue_light1         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| green_light1        | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| rst_n               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GND undriven or does not drive anything - clipped.
+Block u_detecter/GND undriven or does not drive anything - clipped.
+Block u_detecter/VCC undriven or does not drive anything - clipped.
+Signal rst_n_c_i was merged into signal rst_n_c
+Signal u_traffic_light/GND undriven or does not drive anything - clipped.
+Signal u_traffic_light/u_beeper/GND undriven or does not drive anything -
+     clipped.
+Signal u_traffic_light/u_segment/GND undriven or does not drive anything -
+     clipped.
+Signal u_detecter/u1/GND undriven or does not drive anything - clipped.
+Signal u_detecter/u2/GND undriven or does not drive anything - clipped.
+Signal u_detecter/u3/GND undriven or does not drive anything - clipped.
+Signal u_traffic_light/un2_clk_counter_s_23_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_traffic_light/un2_clk_counter_s_23_0_COUT undriven or does not drive
+     anything - clipped.
+Signal u_traffic_light/u_beeper/freq_cnt_cry_0_S0[0] undriven or does not drive
+     anything - clipped.
+Signal u_traffic_light/u_beeper/N_1 undriven or does not drive anything -
+     clipped.
+Signal u_traffic_light/u_beeper/freq_cnt_cry_0_COUT[13] undriven or does not
+     drive anything - clipped.
+Signal u_traffic_light/u_beeper/un2_pulse_cnt_cry_0_0_S1_0 undriven or does not
+     drive anything - clipped.
+Signal u_traffic_light/u_beeper/un2_pulse_cnt_cry_0_0_S0_0 undriven or does not
+     drive anything - clipped.
+Signal u_traffic_light/u_beeper/N_2 undriven or does not drive anything -
+     clipped.
+Signal u_traffic_light/u_beeper/un2_pulse_cnt_cry_21_0_COUT_0 undriven or does
+     not drive anything - clipped.
+Signal u_traffic_light/u_segment/write_cnt_cry_0_S0[0] undriven or does not
+     drive anything - clipped.
+Signal u_traffic_light/u_segment/N_1 undriven or does not drive anything -
+     clipped.
+Signal u_traffic_light/u_segment/write_cnt_s_0_S1[5] undriven or does not drive
+     anything - clipped.
+Signal u_traffic_light/u_segment/write_cnt_s_0_COUT[5] undriven or does not
+     drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  merged_system                                 Date:  02/24/25  10:03:00
+
+Removed logic (cont)
+--------------------
+Signal u_traffic_light/u_segment/un3_clk_div_cnt_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal u_traffic_light/u_segment/un3_clk_div_cnt_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal u_traffic_light/u_segment/N_3 undriven or does not drive anything -
+     clipped.
+Signal u_traffic_light/u_segment/un3_clk_div_cnt_cry_7_0_COUT undriven or does
+     not drive anything - clipped.
+Signal u_traffic_light/un2_clk_counter_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_traffic_light/un2_clk_counter_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_traffic_light/N_1 undriven or does not drive anything - clipped.
+Signal u_detecter/u1/un5_clock_counter_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u1/un5_clock_counter_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u1/N_1 undriven or does not drive anything - clipped.
+Signal u_detecter/u1/un5_clock_counter_s_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u1/un5_clock_counter_s_9_0_COUT undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u1/un1_delay_timer_1_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u1/N_2 undriven or does not drive anything - clipped.
+Signal u_detecter/u1/un1_delay_timer_1_s_23_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u1/un1_delay_timer_1_s_23_0_COUT undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/N_1 undriven or does not drive anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_3_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_3_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_5_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_5_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_7_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_7_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_cry_9_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat1_1_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+
+                                    Page 5
+
+
+
+
+Design:  merged_system                                 Date:  02/24/25  10:03:00
+
+Removed logic (cont)
+--------------------
+Signal u_detecter/u2/un1_prox_dat0_1_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/N_2 undriven or does not drive anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_3_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_3_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_5_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_5_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_7_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_7_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_cry_9_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u2/un1_prox_dat0_1_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u3/freq_cnt_cry_0_S0_0[0] undriven or does not drive anything
+     - clipped.
+Signal u_detecter/u3/N_1 undriven or does not drive anything - clipped.
+Signal u_detecter/u3/freq_cnt_cry_0_COUT_0[13] undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u3/un2_pulse_cnt_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u3/un2_pulse_cnt_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal u_detecter/u3/N_2 undriven or does not drive anything - clipped.
+Signal u_detecter/u3/un2_pulse_cnt_cry_21_0_COUT undriven or does not drive
+     anything - clipped.
+Block rst_n_pad_RNIQR5E7 was optimized away.
+Block u_traffic_light/GND was optimized away.
+Block u_traffic_light/u_beeper/GND was optimized away.
+Block u_traffic_light/u_segment/GND was optimized away.
+Block u_detecter/u1/GND was optimized away.
+Block u_detecter/u2/GND was optimized away.
+Block u_detecter/u3/GND was optimized away.
+
+     
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'rst_n_c' of the design has been inferred as Global
+        Set Reset (GSR). The reset signal used for GSR control is 'rst_n_c'.
+        
+
+                                    Page 6
+
+
+
+
+Design:  merged_system                                 Date:  02/24/25  10:03:00
+
+GSR Usage (cont)
+----------------
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 56 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 7
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights
+     reserved.

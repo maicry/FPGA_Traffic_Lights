@@ -1,0 +1,146 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+Loading design for application iotiming from file latticediamond__fusion_impl1.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 5
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+Loading design for application iotiming from file latticediamond__fusion_impl1.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 6
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+Loading design for application iotiming from file latticediamond__fusion_impl1.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+// Design: merged_system
+// Package: CSBGA132
+// ncd File: latticediamond__fusion_impl1.ncd
+// Version: Diamond (64-bit) 3.14.0.75.2
+// Written on Mon Feb 24 10:03:12 2025
+// M: Minimum Performance Grade
+// iotiming LatticeDiamond__Fusion_impl1.ncd LatticeDiamond__Fusion_impl1.prf -gui
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port         Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+bee          clk   R    13.073         4        3.827          M
+green_light1 clk   R     8.647         4        2.818          M
+red_light1   clk   R     8.636         4        2.812          M
+
+
+// Internal_Clock to Input
+
+Port  Internal_Clock                          
+--------------------------------------------------------
+i2c_s u_detecter.u1.phase_clock               
+rst_n u_detecter.u1.phase_clock               
+rst_n u_traffic_light.u_segment.un5_clk_40_i_i
+
+
+// Internal_Clock to Output
+
+Port    Internal_Clock                          
+--------------------------------------------------------
+i2c_scl u_detecter.u1.phase_clock               
+i2c_sda u_detecter.u1.phase_clock               
+led[0]  u_detecter/dat_valid                    
+led[1]  u_detecter/dat_valid                    
+led[2]  u_detecter/dat_valid                    
+led[3]  u_detecter/dat_valid                    
+led[4]  u_detecter/dat_valid                    
+led[5]  u_detecter/dat_valid                    
+led[6]  u_detecter/dat_valid                    
+led[7]  u_detecter/dat_valid                    
+seg_din u_traffic_light.u_segment.un5_clk_40_i_i
+seg_rck u_traffic_light.u_segment.un5_clk_40_i_i
+seg_sck u_traffic_light.u_segment.un5_clk_40_i_i
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

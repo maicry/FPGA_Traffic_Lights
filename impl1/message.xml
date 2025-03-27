@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="IBIS">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>rst_n_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61001101</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVHD">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Jedecgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE_COUNT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>THRESHOLD</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MAX_COUNT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CNT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MAIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE_COUNT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>RED_LIGHT</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>GREEN_LIGHT</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG532 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v&quot;:23:0:23:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Dynamic>
+            <Navigation>CG532</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL207 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v&quot;:62:0:62:5|All reachable assignments to red_light_internal2 assign 1, register removed by optimization.</Dynamic>
+            <Navigation>CL207</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>All reachable assignments to red_light_internal2 assign 1, register removed by optimization.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL207 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v&quot;:62:0:62:5|All reachable assignments to green_light_internal2 assign 1, register removed by optimization.</Dynamic>
+            <Navigation>CL207</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>All reachable assignments to green_light_internal2 assign 1, register removed by optimization.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL207 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v&quot;:62:0:62:5|All reachable assignments to blue_light_internal2 assign 1, register removed by optimization.</Dynamic>
+            <Navigation>CL207</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>All reachable assignments to blue_light_internal2 assign 1, register removed by optimization.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL207 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v&quot;:62:0:62:5|All reachable assignments to blue_light_internal1 assign 1, register removed by optimization.</Dynamic>
+            <Navigation>CL207</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>All reachable assignments to blue_light_internal1 assign 1, register removed by optimization.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG1340 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:306:54:306:72|Index into variable write_buffer could be out of range ; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CG1340</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>306</Navigation>
+            <Navigation>54</Navigation>
+            <Navigation>306</Navigation>
+            <Navigation>72</Navigation>
+            <Navigation>Index into variable write_buffer could be out of range ; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning unused register step_counter_5[3:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register step_counter_5[3:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning unused register channel_0[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register channel_0[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning unused register channel_1[15:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register channel_1[15:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL265 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Removing unused bit 7 of device_addr[7:0]. Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing unused bit 7 of device_addr[7:0]. Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit prev_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit prev_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit prev_state[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit prev_state[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning unused register ack_state_cl. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ack_state_cl. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning unused register ack_state_cl. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register ack_state_cl. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bits 3 to 2 of prev_state[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of prev_state[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v&quot;:12:12:12:18|Removing wire ch0_dat, as there is no assignment to it.</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Removing wire ch0_dat, as there is no assignment to it.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v&quot;:12:21:12:27|Removing wire ch1_dat, as there is no assignment to it.</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Removing wire ch1_dat, as there is no assignment to it.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG360 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v&quot;:13:12:13:19|Removing wire lux_data, as there is no assignment to it.</Dynamic>
+            <Navigation>CG360</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Removing wire lux_data, as there is no assignment to it.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit mode1_phase[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit mode1_phase[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit start_phase[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit start_phase[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit step_counter_2[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit step_counter_2[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit step_counter_3[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit step_counter_3[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit step_counter_4[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit step_counter_4[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Optimizing register bit step_counter_1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit step_counter_1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of step_counter_1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of step_counter_1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of step_counter_4[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of step_counter_4[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of step_counter_3[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of step_counter_3[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of step_counter_2[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of step_counter_2[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of start_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of start_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of mode1_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of mode1_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v&quot;:55:0:55:5|Pruning register bit 3 of stop_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of stop_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v&quot;:41:0:41:5|Optimizing register bit clk_div_cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit clk_div_cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v&quot;:41:0:41:5|Pruning register bit 9 of clk_div_cnt[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 9 of clk_div_cnt[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v&quot;:57:0:57:5|Pruning register bits 7 to 3 of shift_data[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 3 of shift_data[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v&quot;:6:24:6:30|Input port bits 5 to 0 of data_en[7:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>Input port bits 5 to 0 of data_en[7:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v&quot;:7:24:7:29|Input port bits 5 to 0 of dot_en[7:0] are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>Input port bits 5 to 0 of dot_en[7:0] are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v&quot;:16:0:16:5|Optimizing register bit pulse_cnt[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit pulse_cnt[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v&quot;:16:0:16:5|Optimizing register bit freq_cnt[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit freq_cnt[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v&quot;:16:0:16:5|Pruning register bit 15 of freq_cnt[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 15 of freq_cnt[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v&quot;:16:0:16:5|Pruning register bit 23 of pulse_cnt[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 23 of pulse_cnt[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BZ101 |Potential glitch can occur at the output of 1 instances</Dynamic>
+            <Navigation>BZ101</Navigation>
+            <Navigation>Potential glitch can occur at the output of 1 instances  </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v&quot;:57:0:57:5|Found signal identified as System clock which controls 24 sequential elements including u_traffic_light.u_segment.state[1].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found signal identified as System clock which controls 24 sequential elements including u_traffic_light.u_segment.state[1].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\beeper.v&quot;:16:0:16:5|Found inferred clock merged_system|clk which controls 135 sequential elements including u_traffic_light.u_beeper.pulse_cnt[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\beeper.v</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock merged_system|clk which controls 135 sequential elements including u_traffic_light.u_beeper.pulse_cnt[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:1:7:1:12|Net i2c_sda has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Net i2c_sda has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:1:7:1:12|Net i2c_data_bus_2 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Net i2c_data_bus_2 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:1:7:1:12|Net i2c_data_bus_cl_4 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Net i2c_data_bus_cl_4 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:1:7:1:12|Net i2c_data_bus_4_1 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Net i2c_data_bus_4_1 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\detecter.v&quot;:1:7:1:14|Net i2c_sda has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\detecter.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Net i2c_sda has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net i2c_sda has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net i2c_sda has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.device_addr[6] because it is equivalent to instance u_detecter.u1.device_addr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.device_addr[6] because it is equivalent to instance u_detecter.u1.device_addr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.device_addr[2] because it is equivalent to instance u_detecter.u1.device_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.device_addr[2] because it is equivalent to instance u_detecter.u1.device_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.device_addr[1] because it is equivalent to instance u_detecter.u1.device_addr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.device_addr[1] because it is equivalent to instance u_detecter.u1.device_addr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.reg_addr[7] because it is equivalent to instance u_detecter.u1.reg_addr[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.reg_addr[7] because it is equivalent to instance u_detecter.u1.reg_addr[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.reg_addr[5] because it is equivalent to instance u_detecter.u1.reg_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.reg_addr[5] because it is equivalent to instance u_detecter.u1.reg_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.reg_data[5] because it is equivalent to instance u_detecter.u1.reg_data[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.reg_data[5] because it is equivalent to instance u_detecter.u1.reg_data[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.reg_data[7] because it is equivalent to instance u_detecter.u1.reg_data[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.reg_data[7] because it is equivalent to instance u_detecter.u1.reg_data[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.reg_data[6] because it is equivalent to instance u_detecter.u1.reg_data[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.reg_data[6] because it is equivalent to instance u_detecter.u1.reg_data[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.device_addr[5] because it is equivalent to instance u_detecter.u1.device_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.device_addr[5] because it is equivalent to instance u_detecter.u1.device_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.device_addr[4] because it is equivalent to instance u_detecter.u1.device_addr[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.device_addr[4] because it is equivalent to instance u_detecter.u1.device_addr[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.write_buffer[5] because it is equivalent to instance u_detecter.u1.write_buffer[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.write_buffer[5] because it is equivalent to instance u_detecter.u1.write_buffer[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v&quot;:55:0:55:5|Removing instance u_detecter.u1.current_state[11] because it is equivalent to instance u_detecter.u1.current_state[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>55</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance u_detecter.u1.current_state[11] because it is equivalent to instance u_detecter.u1.current_state[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.dat_valid has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.dat_valid has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_4 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_4 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_5 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_5 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_6 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_6 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_7 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_7 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_8 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_8 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_9 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_9 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_10 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_10 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_11 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_11 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.N_12 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.N_12 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u3.N_16 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u3.N_16 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u3.N_18 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u3.N_18 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u3.N_19 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u3.N_19 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.phase_clock has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.phase_clock has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_132 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_132 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_135 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_135 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_347 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_347 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_348 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_348 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_349 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_349 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_350 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_350 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_351 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_351 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_352 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_352 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_353 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_353 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_354 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_354 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_358 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_358 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_359 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_359 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_360 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_360 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_361 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_361 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_362 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_362 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_363 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_363 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_364 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_364 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_365 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_365 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_366 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_366 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_367 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_367 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_368 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_368 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_369 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_369 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_370 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_370 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_371 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_371 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_372 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_372 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_373 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_373 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_374 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_374 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_375 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_375 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_376 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_376 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_377 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_377 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_378 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_378 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_379 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_379 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_380 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_380 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_381 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_381 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_382 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_382 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_383 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_383 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_384 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_384 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_385 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_385 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_386 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_386 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_387 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_387 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_388 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_388 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_389 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_389 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_390 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_390 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_391 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_391 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_392 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_392 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_393 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_393 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_394 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_394 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_395 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_395 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_396 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_396 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_397 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_397 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_398 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_398 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_399 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_399 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_400 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_400 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_401 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_401 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_402 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_402 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_403 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_403 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_404 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_404 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_405 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_405 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_406 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_406 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_407 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_407 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_408 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_408 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_409 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_409 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_410 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_410 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_411 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_411 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_412 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_412 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_413 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_413 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_414 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_414 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_415 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_415 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_416 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_416 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_417 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_417 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_418 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_418 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_419 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_419 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_420 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_420 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_422 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_422 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_423 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_423 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_424 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_424 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_425 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_425 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_426 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_426 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_427 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_427 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v&quot;:1:7:1:19|Net u_detecter.u1.N_428 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Net u_detecter.u1.N_428 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock merged_system|clk with period 10.00ns. Please declare a user-defined clock on port clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock merged_system|clk with period 10.00ns. Please declare a user-defined clock on port clk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

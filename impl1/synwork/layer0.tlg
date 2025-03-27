@@ -1,0 +1,116 @@
+Selecting top level module merged_system
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v":1:7:1:12|Synthesizing module beeper in library work.
+Running optimization stage 1 on beeper .......
+Finished optimization stage 1 on beeper (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 93MB)
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":1:7:1:13|Synthesizing module segment in library work.
+Opening data file segment_seg_data_16284_initial_block from directory .
+@W: CG532 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":23:0:23:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on segment .......
+@A: CL282 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":57:0:57:5|Feedback mux created for signal shift_data[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on segment (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":1:7:1:19|Synthesizing module traffic_light in library work.
+Running optimization stage 1 on traffic_light .......
+@W: CL207 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":62:0:62:5|All reachable assignments to red_light_internal2 assign 1, register removed by optimization.
+@W: CL207 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":62:0:62:5|All reachable assignments to green_light_internal2 assign 1, register removed by optimization.
+@W: CL207 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":62:0:62:5|All reachable assignments to blue_light_internal2 assign 1, register removed by optimization.
+@W: CL207 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":62:0:62:5|All reachable assignments to blue_light_internal1 assign 1, register removed by optimization.
+Finished optimization stage 1 on traffic_light (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":1:7:1:12|Synthesizing module sensor in library work.
+@W: CG1340 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":306:54:306:72|Index into variable write_buffer could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":329:45:329:57|Removing redundant assignment.
+Running optimization stage 1 on sensor .......
+@W: CL169 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning unused register step_counter_5[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning unused register channel_0[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning unused register channel_1[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Removing unused bit 7 of device_addr[7:0]. Either assign all bits or reduce the width of the signal.
+@A: CL282 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Feedback mux created for signal write_buffer[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Feedback mux created for signal stop_phase[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit prev_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit prev_state[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning unused register ack_state_cl. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning unused register ack_state_cl. Make sure that there are no unused intermediate registers.
+@W: CL279 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bits 3 to 2 of prev_state[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on sensor (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v":1:7:1:16|Synthesizing module controller in library work.
+@N: CG179 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v":16:21:16:29|Removing redundant assignment.
+Running optimization stage 1 on controller .......
+Finished optimization stage 1 on controller (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v":1:7:1:14|Synthesizing module detecter in library work.
+@W: CG360 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v":12:12:12:18|Removing wire ch0_dat, as there is no assignment to it.
+@W: CG360 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v":12:21:12:27|Removing wire ch1_dat, as there is no assignment to it.
+@W: CG360 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v":13:12:13:19|Removing wire lux_data, as there is no assignment to it.
+Running optimization stage 1 on detecter .......
+Finished optimization stage 1 on detecter (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\merged_system.v":1:7:1:19|Synthesizing module merged_system in library work.
+Running optimization stage 1 on merged_system .......
+Finished optimization stage 1 on merged_system (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+Running optimization stage 2 on merged_system .......
+Finished optimization stage 2 on merged_system (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 100MB)
+Running optimization stage 2 on detecter .......
+Finished optimization stage 2 on detecter (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 100MB)
+Running optimization stage 2 on controller .......
+@N: CL159 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v":2:24:2:28|Input rst_n is unused.
+Finished optimization stage 2 on controller (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 100MB)
+Running optimization stage 2 on sensor .......
+@N: CL189 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Register bit stop_phase[3] is always 0.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit mode1_phase[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit start_phase[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit step_counter_2[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit step_counter_3[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit step_counter_4[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Optimizing register bit step_counter_1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of step_counter_1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of step_counter_4[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of step_counter_3[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of step_counter_2[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of start_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of mode1_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Pruning register bit 3 of stop_phase[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 12 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+Finished optimization stage 2 on sensor (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 100MB)
+Running optimization stage 2 on traffic_light .......
+@N: CL201 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":62:0:62:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+Finished optimization stage 2 on traffic_light (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 100MB)
+Running optimization stage 2 on segment .......
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":41:0:41:5|Optimizing register bit clk_div_cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":41:0:41:5|Pruning register bit 9 of clk_div_cnt[9:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":57:0:57:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL279 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":57:0:57:5|Pruning register bits 7 to 3 of shift_data[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":6:24:6:30|Input port bits 5 to 0 of data_en[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":7:24:7:29|Input port bits 5 to 0 of dot_en[7:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on segment (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 100MB)
+Running optimization stage 2 on beeper .......
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v":16:0:16:5|Optimizing register bit pulse_cnt[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v":16:0:16:5|Optimizing register bit freq_cnt[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v":16:0:16:5|Pruning register bit 15 of freq_cnt[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v":16:0:16:5|Pruning register bit 23 of pulse_cnt[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on beeper (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 100MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\impl1\synwork\layer0.duruntime
+
+

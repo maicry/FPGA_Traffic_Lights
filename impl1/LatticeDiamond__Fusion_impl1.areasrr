@@ -1,0 +1,166 @@
+----------------------------------------------------------------------
+Report for cell merged_system.verilog
+
+Register bits: 326 of 4320 (8%)
+PIC Latch:       0
+I/O cells:       22
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        1       100.0
+                              CCU2D       99       100.0
+                            FD1P3AX       20       100.0
+                            FD1P3BX        5       100.0
+                            FD1P3DX      105       100.0
+                            FD1P3IX        6       100.0
+                            FD1S3AX       32       100.0
+                            FD1S3BX        6       100.0
+                            FD1S3DX      142       100.0
+                            FD1S3IX        3       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                           IFS1P3DX        1       100.0
+                                INV        5       100.0
+                            L6MUX21        1       100.0
+                                 OB       19       100.0
+                           OFS1P3BX        1       100.0
+                           OFS1P3DX        5       100.0
+                           ORCALUT4      363       100.0
+                              PFUMX        4       100.0
+                                PUR        1       100.0
+                                VHI        8       100.0
+                                VLO        8       100.0
+SUB MODULES 
+                             beeper        1       100.0
+                           beeper_1        1       100.0
+                         controller        1       100.0
+                           detecter        1       100.0
+                            segment        1       100.0
+                             sensor        1       100.0
+                      traffic_light        1       100.0
+                            
+                         TOTAL           845           
+----------------------------------------------------------------------
+Report for cell detecter.netlist
+     Instance path:  u_detecter
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       57        57.6
+                            FD1P3AX       16        80.0
+                            FD1P3BX        5       100.0
+                            FD1P3DX       81        77.1
+                            FD1S3AX       32       100.0
+                            FD1S3BX        5        83.3
+                            FD1S3DX       75        52.8
+                            FD1S3IX        3       100.0
+                                INV        1        20.0
+                            L6MUX21        1       100.0
+                           ORCALUT4      247        68.0
+                              PFUMX        2        50.0
+                                VHI        4        50.0
+                                VLO        4        50.0
+SUB MODULES 
+                           beeper_1        1       100.0
+                         controller        1       100.0
+                             sensor        1       100.0
+                            
+                         TOTAL           536           
+----------------------------------------------------------------------
+Report for cell beeper_1.netlist
+  Original Cell name beeper
+     Instance path:  u_detecter.u3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       20        20.2
+                            FD1P3DX       17        16.2
+                            FD1S3DX       24        16.9
+                                INV        1        20.0
+                           ORCALUT4       27         7.4
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL            91           
+----------------------------------------------------------------------
+Report for cell controller.netlist
+     Instance path:  u_detecter.u2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       18        18.2
+                            FD1P3AX        9        45.0
+                            FD1S3AX       32       100.0
+                           ORCALUT4        9         2.5
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL            70           
+----------------------------------------------------------------------
+Report for cell sensor.netlist
+     Instance path:  u_detecter.u1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       19        19.2
+                            FD1P3AX        7        35.0
+                            FD1P3BX        5       100.0
+                            FD1P3DX       64        61.0
+                            FD1S3BX        5        83.3
+                            FD1S3DX       51        35.9
+                            FD1S3IX        3       100.0
+                            L6MUX21        1       100.0
+                           ORCALUT4      211        58.1
+                              PFUMX        2        50.0
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL           370           
+----------------------------------------------------------------------
+Report for cell traffic_light.netlist
+     Instance path:  u_traffic_light
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       42        42.4
+                            FD1P3AX        4        20.0
+                            FD1P3DX       24        22.9
+                            FD1P3IX        6       100.0
+                            FD1S3BX        1        16.7
+                            FD1S3DX       67        47.2
+                                INV        3        60.0
+                           ORCALUT4      115        31.7
+                              PFUMX        2        50.0
+                                VHI        3        37.5
+                                VLO        3        37.5
+SUB MODULES 
+                             beeper        1       100.0
+                            segment        1       100.0
+                            
+                         TOTAL           272           
+----------------------------------------------------------------------
+Report for cell segment.netlist
+     Instance path:  u_traffic_light.u_segment
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        9         9.1
+                            FD1P3AX        4        20.0
+                            FD1P3DX        6         5.7
+                            FD1P3IX        6       100.0
+                            FD1S3DX       14         9.9
+                                INV        1        20.0
+                           ORCALUT4       52        14.3
+                              PFUMX        2        50.0
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL            96           
+----------------------------------------------------------------------
+Report for cell beeper.netlist
+  Original Cell name beeper
+     Instance path:  u_traffic_light.u_beeper
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       20        20.2
+                            FD1P3DX       17        16.2
+                            FD1S3DX       24        16.9
+                                INV        1        20.0
+                           ORCALUT4       27         7.4
+                                VHI        1        12.5
+                                VLO        1        12.5
+                            
+                         TOTAL            91           

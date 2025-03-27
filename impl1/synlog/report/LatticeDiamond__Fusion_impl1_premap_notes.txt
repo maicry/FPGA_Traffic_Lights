@@ -1,0 +1,10 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "0" on instance sec_pulse.
+@N: FX493 |Applying initial value "0" on instance beeper_en.
+@N: MO225 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\traffic_light.v":62:0:62:5|There are no possible illegal states for state machine current_state[1:0] (in view: work.traffic_light(verilog)); safe FSM implementation is not required.
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+@N: MT611 :|Automatically generated clock segment|un5_clk_40_inferred_clock is not used and is being removed
+@N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist merged_system 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

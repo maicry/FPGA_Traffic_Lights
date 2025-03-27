@@ -1,0 +1,81 @@
+Loading design for application iotiming from file latticediamond__fusion_impl1.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 5
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+Loading design for application iotiming from file latticediamond__fusion_impl1.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: 6
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+Loading design for application iotiming from file latticediamond__fusion_impl1.ncd.
+Design name: merged_system
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-4000HC
+Package:     CSBGA132
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 36.4.
+// Design: merged_system
+// Package: CSBGA132
+// ncd File: latticediamond__fusion_impl1.ncd
+// Version: Diamond (64-bit) 3.14.0.75.2
+// Written on Mon Feb 24 10:03:12 2025
+// M: Minimum Performance Grade
+// iotiming LatticeDiamond__Fusion_impl1.ncd LatticeDiamond__Fusion_impl1.prf -gui
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port         Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+bee          clk   R    13.073         4        3.827          M
+green_light1 clk   R     8.647         4        2.818          M
+red_light1   clk   R     8.636         4        2.812          M
+
+
+// Internal_Clock to Input
+
+Port  Internal_Clock                          
+--------------------------------------------------------
+i2c_s u_detecter.u1.phase_clock               
+rst_n u_detecter.u1.phase_clock               
+rst_n u_traffic_light.u_segment.un5_clk_40_i_i
+
+
+// Internal_Clock to Output
+
+Port    Internal_Clock                          
+--------------------------------------------------------
+i2c_scl u_detecter.u1.phase_clock               
+i2c_sda u_detecter.u1.phase_clock               
+led[0]  u_detecter/dat_valid                    
+led[1]  u_detecter/dat_valid                    
+led[2]  u_detecter/dat_valid                    
+led[3]  u_detecter/dat_valid                    
+led[4]  u_detecter/dat_valid                    
+led[5]  u_detecter/dat_valid                    
+led[6]  u_detecter/dat_valid                    
+led[7]  u_detecter/dat_valid                    
+seg_din u_traffic_light.u_segment.un5_clk_40_i_i
+seg_rck u_traffic_light.u_segment.un5_clk_40_i_i
+seg_sck u_traffic_light.u_segment.un5_clk_40_i_i

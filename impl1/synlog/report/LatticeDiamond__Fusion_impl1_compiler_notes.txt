@@ -1,0 +1,18 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v":1:7:1:12|Synthesizing module beeper in library work.
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":1:7:1:13|Synthesizing module segment in library work.
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":1:7:1:19|Synthesizing module traffic_light in library work.
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":1:7:1:12|Synthesizing module sensor in library work.
+@N: CG179 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":329:45:329:57|Removing redundant assignment.
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v":1:7:1:16|Synthesizing module controller in library work.
+@N: CG179 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v":16:21:16:29|Removing redundant assignment.
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v":1:7:1:14|Synthesizing module detecter in library work.
+@N: CG364 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\merged_system.v":1:7:1:19|Synthesizing module merged_system in library work.
+@N: CL159 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v":2:24:2:28|Input rst_n is unused.
+@N: CL189 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Register bit stop_phase[3] is always 0.
+@N: CL201 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v":55:0:55:5|Trying to extract state machine for register current_state.
+@N: CL201 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v":62:0:62:5|Trying to extract state machine for register current_state.
+@N: CL201 :"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v":57:0:57:5|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "LatticeDiamond__Fusion_impl1.log"
+-o "LatticeDiamond__Fusion_impl1.csv"
+-pr "LatticeDiamond__Fusion_impl1.prf"

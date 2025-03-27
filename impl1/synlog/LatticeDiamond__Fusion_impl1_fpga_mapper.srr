@@ -1,0 +1,745 @@
+# Mon Feb 24 10:02:42 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: D:\Program Files\Lattice\synpbase
+OS: Windows 10 or later
+Hostname: MAICRY
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 203MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":89:54:89:70|ROM shift_data_6[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":82:54:82:70|ROM shift_data_2[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":89:54:89:70|ROM shift_data_6[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: MO106 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":89:54:89:70|Found ROM shift_data_6[14:8] (in view: work.segment(verilog)) with 16 words by 7 bits.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":82:54:82:70|ROM shift_data_2[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: MO106 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":82:54:82:70|Found ROM shift_data_2[14:8] (in view: work.segment(verilog)) with 2 words by 7 bits.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":106:16:106:19|ROM current_state_2[3:1] (in view: work.sensor(verilog)) mapped in logic.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":106:16:106:19|ROM current_state_2[3:1] (in view: work.sensor(verilog)) mapped in logic.
+@N: MO106 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":106:16:106:19|Found ROM current_state_2[3:1] (in view: work.sensor(verilog)) with 12 words by 3 bits.
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":1:7:1:12|Net i2c_sda has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":1:7:1:12|Net i2c_data_bus_2 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":1:7:1:12|Net i2c_data_bus_cl_4 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":1:7:1:12|Net i2c_data_bus_4_1 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\detecter.v":1:7:1:14|Net i2c_sda has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net i2c_sda has multiple drivers .
+@N: MF237 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\traffic_light.v":114:19:114:39|Generating a type rem remainder 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+
+@N: FX493 |Applying initial value "0" on instance sec_pulse.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\beeper.v":16:0:16:5|Found counter in view:work.beeper_0(verilog) instance freq_cnt[14:0] 
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":57:0:57:5|Found counter in view:work.segment(verilog) instance write_cnt[5:0] 
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[6] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[5] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[4] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[3] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[2] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[1] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[0] (in view: work.detecter(verilog)) because it does not drive other instances.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.device_addr[6] because it is equivalent to instance u_detecter.u1.device_addr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.device_addr[2] because it is equivalent to instance u_detecter.u1.device_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.device_addr[1] because it is equivalent to instance u_detecter.u1.device_addr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.reg_addr[7] because it is equivalent to instance u_detecter.u1.reg_addr[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.reg_addr[5] because it is equivalent to instance u_detecter.u1.reg_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.reg_data[5] because it is equivalent to instance u_detecter.u1.reg_data[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.reg_data[7] because it is equivalent to instance u_detecter.u1.reg_data[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.reg_data[6] because it is equivalent to instance u_detecter.u1.reg_data[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.device_addr[5] because it is equivalent to instance u_detecter.u1.device_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.device_addr[4] because it is equivalent to instance u_detecter.u1.device_addr[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Found counter in view:work.sensor(verilog) instance mode2_phase[3:0] 
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Found counter in view:work.sensor(verilog) instance main_phase[3:0] 
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance current_state[9] (in view: work.sensor(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance reg_data[4] (in view: work.sensor(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance device_addr[0] (in view: work.sensor(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance reg_addr[4] (in view: work.sensor(verilog)) because it does not drive other instances.
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.write_buffer[5] because it is equivalent to instance u_detecter.u1.write_buffer[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\beeper.v":16:0:16:5|Found counter in view:work.beeper_1(verilog) instance freq_cnt[14:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 269MB)
+
+@W: BN132 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing instance u_detecter.u1.current_state[11] because it is equivalent to instance u_detecter.u1.current_state[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance u_detecter.u1.current_state[10] (in view: work.merged_system(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.dat_valid has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_4 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_5 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_6 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_7 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_8 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_9 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_10 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_11 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.N_12 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u3.N_16 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u3.N_18 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u3.N_19 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.phase_clock has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_132 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_135 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_347 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_348 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_349 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_350 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_351 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_352 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_353 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_354 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_358 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_359 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_360 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_361 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_362 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_363 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_364 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_365 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_366 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_367 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_368 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_369 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_370 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_371 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_372 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_373 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_374 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_375 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_376 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_377 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_378 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_379 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_380 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_381 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_382 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_383 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_384 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_385 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_386 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_387 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_388 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_389 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_390 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_391 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_392 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_393 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_394 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_395 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_396 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_397 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_398 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_399 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_400 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_401 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_402 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_403 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_404 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_405 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_406 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_407 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_408 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_409 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_410 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_411 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_412 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_413 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_414 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_415 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_416 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_417 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_418 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_419 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_420 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_422 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_423 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_424 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_425 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_426 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_427 has multiple drivers .
+@W: BN161 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\merged_system.v":1:7:1:19|Net u_detecter.u1.N_428 has multiple drivers .
+
+Only the first 100 messages of id 'BN161' are reported. To see all messages use 'report_messages -log D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\impl1\synlog\LatticeDiamond__Fusion_impl1_fpga_mapper.srr -id BN161' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN161} -count unlimited' in the Tcl shell.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 270MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 270MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 270MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 282MB peak: 282MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     2.31ns		 373 /       328
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 282MB peak: 282MB)
+
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance u_detecter.u1.reg_addr[6] (in view: work.merged_system(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance u_detecter.u1.device_addr[3] (in view: work.merged_system(verilog)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 282MB peak: 282MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 283MB peak: 283MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 283MB peak: 283MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 225MB peak: 283MB)
+
+Writing Analyst data base D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\impl1\synwork\LatticeDiamond__Fusion_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 282MB peak: 283MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\impl1\LatticeDiamond__Fusion_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@W: BW150 :|Clock segment|un5_clk_40_inferred_clock in set_clock_groups command cannot be found and will not be forward annotated
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 290MB peak: 290MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 290MB peak: 291MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 287MB peak: 291MB)
+
+@W: MT420 |Found inferred clock merged_system|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+@N: MT615 |Found clock sensor|phase_clock_derived_clock with period 10.00ns 
+@N: MT615 |Found clock sensor|data_valid_derived_clock with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Feb 24 10:02:46 2025
+#
+
+
+Top view:               merged_system
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.537
+
+                                     Requested     Estimated     Requested     Estimated               Clock                                               Clock          
+Starting Clock                       Frequency     Frequency     Period        Period        Slack     Type                                                Group          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+merged_system|clk                    100.0 MHz     105.7 MHz     10.000        9.463         0.537     inferred                                            (multiple)     
+sensor|data_valid_derived_clock      100.0 MHz     251.2 MHz     10.000        3.981         6.186     derived (from sensor|phase_clock_derived_clock)     (multiple)     
+sensor|phase_clock_derived_clock     100.0 MHz     317.5 MHz     10.000        3.150         8.923     derived (from merged_system|clk)                    (multiple)     
+System                               100.0 MHz     142.0 MHz     10.000        7.042         2.958     system                                              system_clkgroup
+==========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                          Ending                            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+System                            System                            |  10.000      2.958   |  No paths    -      |  No paths    -      |  No paths    -    
+merged_system|clk                 System                            |  10.000      6.111   |  No paths    -      |  No paths    -      |  No paths    -    
+merged_system|clk                 merged_system|clk                 |  10.000      0.537   |  No paths    -      |  No paths    -      |  No paths    -    
+sensor|phase_clock_derived_clock  sensor|phase_clock_derived_clock  |  10.000      13.700  |  No paths    -      |  No paths    -      |  No paths    -    
+sensor|phase_clock_derived_clock  sensor|data_valid_derived_clock   |  10.000      8.923   |  No paths    -      |  No paths    -      |  No paths    -    
+sensor|data_valid_derived_clock   merged_system|clk                 |  10.000      6.186   |  No paths    -      |  No paths    -      |  No paths    -    
+sensor|data_valid_derived_clock   sensor|data_valid_derived_clock   |  10.000      12.038  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: merged_system|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                   Arrival          
+Instance                                  Reference             Type        Pin     Net              Time        Slack
+                                          Clock                                                                       
+----------------------------------------------------------------------------------------------------------------------
+u_traffic_light.u_beeper.freq_cnt[0]      merged_system|clk     FD1P3DX     Q       freq_cnt[0]      1.044       0.537
+u_detecter.u3.freq_cnt[0]                 merged_system|clk     FD1P3DX     Q       freq_cnt[0]      1.044       0.537
+u_detecter.u3.freq_cnt[1]                 merged_system|clk     FD1P3DX     Q       freq_cnt[1]      1.044       0.537
+u_traffic_light.u_beeper.freq_cnt[1]      merged_system|clk     FD1P3DX     Q       freq_cnt[1]      1.044       0.537
+u_traffic_light.u_beeper.freq_cnt[4]      merged_system|clk     FD1P3DX     Q       freq_cnt[4]      1.044       0.537
+u_detecter.u3.freq_cnt[4]                 merged_system|clk     FD1P3DX     Q       freq_cnt[4]      1.044       0.537
+u_traffic_light.u_beeper.freq_cnt[5]      merged_system|clk     FD1P3DX     Q       freq_cnt[5]      1.044       0.537
+u_detecter.u3.freq_cnt[5]                 merged_system|clk     FD1P3DX     Q       freq_cnt[5]      1.044       0.537
+u_traffic_light.u_beeper.pulse_cnt[0]     merged_system|clk     FD1S3DX     Q       pulse_cnt[0]     1.108       1.439
+u_detecter.u3.pulse_cnt[0]                merged_system|clk     FD1S3DX     Q       pulse_cnt[0]     1.108       1.439
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                                     Required          
+Instance                                  Reference             Type        Pin     Net                Time         Slack
+                                          Clock                                                                          
+-------------------------------------------------------------------------------------------------------------------------
+u_detecter.u3.freq_cnt[13]                merged_system|clk     FD1P3DX     D       freq_cnt_s[13]     9.894        0.537
+u_traffic_light.u_beeper.freq_cnt[13]     merged_system|clk     FD1P3DX     D       freq_cnt_s[13]     9.894        0.537
+u_traffic_light.u_beeper.freq_cnt[14]     merged_system|clk     FD1P3DX     D       freq_cnt_s[14]     9.894        0.537
+u_detecter.u3.freq_cnt[14]                merged_system|clk     FD1P3DX     D       freq_cnt_s[14]     9.894        0.537
+u_detecter.u3.freq_cnt[11]                merged_system|clk     FD1P3DX     D       freq_cnt_s[11]     9.894        0.680
+u_traffic_light.u_beeper.freq_cnt[11]     merged_system|clk     FD1P3DX     D       freq_cnt_s[11]     9.894        0.680
+u_detecter.u3.freq_cnt[12]                merged_system|clk     FD1P3DX     D       freq_cnt_s[12]     9.894        0.680
+u_traffic_light.u_beeper.freq_cnt[12]     merged_system|clk     FD1P3DX     D       freq_cnt_s[12]     9.894        0.680
+u_detecter.u3.freq_cnt[9]                 merged_system|clk     FD1P3DX     D       freq_cnt_s[9]      9.894        0.823
+u_traffic_light.u_beeper.freq_cnt[9]      merged_system|clk     FD1P3DX     D       freq_cnt_s[9]      9.894        0.823
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      9.357
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.537
+
+    Number of logic level(s):                12
+    Starting point:                          u_traffic_light.u_beeper.freq_cnt[0] / Q
+    Ending point:                            u_traffic_light.u_beeper.freq_cnt[14] / D
+    The start point is clocked by            merged_system|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            merged_system|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+u_traffic_light.u_beeper.freq_cnt[0]            FD1P3DX      Q        Out     1.044     1.044 r     -         
+freq_cnt[0]                                     Net          -        -       -         -           2         
+u_traffic_light.u_beeper.freq_cnt14lto5_3       ORCALUT4     A        In      0.000     1.044 r     -         
+u_traffic_light.u_beeper.freq_cnt14lto5_3       ORCALUT4     Z        Out     1.017     2.061 f     -         
+freq_cnt14lto5_3                                Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt14lto6         ORCALUT4     A        In      0.000     2.061 f     -         
+u_traffic_light.u_beeper.freq_cnt14lto6         ORCALUT4     Z        Out     1.017     3.077 f     -         
+freq_cnt14lt8                                   Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt14lto9         ORCALUT4     A        In      0.000     3.077 f     -         
+u_traffic_light.u_beeper.freq_cnt14lto9         ORCALUT4     Z        Out     1.017     4.094 f     -         
+freq_cnt14lt12                                  Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt14lto14        ORCALUT4     A        In      0.000     4.094 f     -         
+u_traffic_light.u_beeper.freq_cnt14lto14        ORCALUT4     Z        Out     1.313     5.407 f     -         
+freq_cnt                                        Net          -        -       -         -           17        
+u_traffic_light.u_beeper.freq_cnt_cry_0[0]      CCU2D        A1       In      0.000     5.407 f     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[0]      CCU2D        COUT     Out     1.544     6.952 r     -         
+freq_cnt_cry[0]                                 Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[1]      CCU2D        CIN      In      0.000     6.952 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[1]      CCU2D        COUT     Out     0.143     7.094 r     -         
+freq_cnt_cry[2]                                 Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[3]      CCU2D        CIN      In      0.000     7.094 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[3]      CCU2D        COUT     Out     0.143     7.237 r     -         
+freq_cnt_cry[4]                                 Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[5]      CCU2D        CIN      In      0.000     7.237 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[5]      CCU2D        COUT     Out     0.143     7.380 r     -         
+freq_cnt_cry[6]                                 Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[7]      CCU2D        CIN      In      0.000     7.380 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[7]      CCU2D        COUT     Out     0.143     7.523 r     -         
+freq_cnt_cry[8]                                 Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[9]      CCU2D        CIN      In      0.000     7.523 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[9]      CCU2D        COUT     Out     0.143     7.665 r     -         
+freq_cnt_cry[10]                                Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[11]     CCU2D        CIN      In      0.000     7.665 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[11]     CCU2D        COUT     Out     0.143     7.808 r     -         
+freq_cnt_cry[12]                                Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt_cry_0[13]     CCU2D        CIN      In      0.000     7.808 r     -         
+u_traffic_light.u_beeper.freq_cnt_cry_0[13]     CCU2D        S1       Out     1.549     9.357 r     -         
+freq_cnt_s[14]                                  Net          -        -       -         -           1         
+u_traffic_light.u_beeper.freq_cnt[14]           FD1P3DX      D        In      0.000     9.357 r     -         
+==============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: sensor|data_valid_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                                                  Arrival           
+Instance                        Reference                           Type        Pin     Net               Time        Slack 
+                                Clock                                                                                       
+----------------------------------------------------------------------------------------------------------------------------
+u_detecter.u2.prox_dat2[10]     sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[10]     1.044       6.186 
+u_detecter.u2.prox_dat2[11]     sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[11]     1.044       6.186 
+u_detecter.u2.prox_dat2[9]      sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[9]      0.972       6.258 
+u_detecter.u2.prox_dat2[7]      sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[7]      0.972       6.402 
+u_detecter.u2.prox_dat2[8]      sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[8]      0.972       6.402 
+u_detecter.u2.prox_dat2[14]     sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[14]     0.972       6.402 
+u_detecter.u2.prox_dat2[15]     sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[15]     0.972       6.402 
+u_detecter.u2.prox_dat2[12]     sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[12]     1.044       7.419 
+u_detecter.u2.prox_dat2[13]     sensor|data_valid_derived_clock     FD1P3AX     Q       prox_dat2[13]     1.044       7.419 
+u_detecter.u2.prox_dat0[0]      sensor|data_valid_derived_clock     FD1S3AX     Q       prox_dat0[0]      1.108       12.038
+============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                              Starting                                                                           Required          
+Instance                      Reference                           Type        Pin     Net                        Time         Slack
+                              Clock                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------
+u_detecter.u3.beeper_freq     sensor|data_valid_derived_clock     FD1P3DX     SP      beeper_freq_0_sqmuxa_i     9.528        6.186
+u_detecter.u3.beeper          sensor|data_valid_derived_clock     FD1S3DX     D       beeper_2                   10.089       6.747
+u_detecter.u3.beeper_freq     sensor|data_valid_derived_clock     FD1P3DX     D       N_69_i                     10.089       6.747
+u_detecter.u3.freq_cnt[0]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+u_detecter.u3.freq_cnt[1]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+u_detecter.u3.freq_cnt[2]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+u_detecter.u3.freq_cnt[3]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+u_detecter.u3.freq_cnt[4]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+u_detecter.u3.freq_cnt[5]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+u_detecter.u3.freq_cnt[6]     sensor|data_valid_derived_clock     FD1P3DX     SP      N_71_i                     9.528        6.803
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.472
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.528
+
+    - Propagation time:                      3.342
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.186
+
+    Number of logic level(s):                3
+    Starting point:                          u_detecter.u2.prox_dat2[10] / Q
+    Ending point:                            u_detecter.u3.beeper_freq / SP
+    The start point is clocked by            sensor|data_valid_derived_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            merged_system|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+u_detecter.u2.prox_dat2[10]                 FD1P3AX      Q        Out     1.044     1.044 r     -         
+prox_dat2[10]                               Net          -        -       -         -           2         
+u_detecter.u2.Y_out5_0_a2                   ORCALUT4     B        In      0.000     1.044 r     -         
+u_detecter.u2.Y_out5_0_a2                   ORCALUT4     Z        Out     1.233     2.277 f     -         
+led_c[0]                                    Net          -        -       -         -           6         
+u_detecter.u2.prox_dat2_RNIQLKC11_0[12]     ORCALUT4     A        In      0.000     2.277 f     -         
+u_detecter.u2.prox_dat2_RNIQLKC11_0[12]     ORCALUT4     Z        Out     0.449     2.725 f     -         
+prox_dat2_RNIQLKC11_0[12]                   Net          -        -       -         -           3         
+u_detecter.u3.beeper_freq_0_sqmuxa_i        ORCALUT4     A        In      0.000     2.725 f     -         
+u_detecter.u3.beeper_freq_0_sqmuxa_i        ORCALUT4     Z        Out     0.617     3.342 f     -         
+beeper_freq_0_sqmuxa_i                      Net          -        -       -         -           1         
+u_detecter.u3.beeper_freq                   FD1P3DX      SP       In      0.000     3.342 f     -         
+==========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: sensor|phase_clock_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                                 Arrival          
+Instance                            Reference                            Type        Pin     Net             Time        Slack
+                                    Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------------------
+u_detecter.u1.proximity_data[0]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[0]     0.972       8.923
+u_detecter.u1.proximity_data[1]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[1]     0.972       8.923
+u_detecter.u1.proximity_data[2]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[2]     0.972       8.923
+u_detecter.u1.proximity_data[3]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[3]     0.972       8.923
+u_detecter.u1.proximity_data[4]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[4]     0.972       8.923
+u_detecter.u1.proximity_data[5]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[5]     0.972       8.923
+u_detecter.u1.proximity_data[6]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[6]     0.972       8.923
+u_detecter.u1.proximity_data[7]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[7]     0.972       8.923
+u_detecter.u1.proximity_data[8]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[8]     0.972       8.923
+u_detecter.u1.proximity_data[9]     sensor|phase_clock_derived_clock     FD1P3DX     Q       prox_dat[9]     0.972       8.923
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                                 Required          
+Instance                       Reference                            Type        Pin     Net             Time         Slack
+                               Clock                                                                                      
+--------------------------------------------------------------------------------------------------------------------------
+u_detecter.u2.prox_dat0[0]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[0]     9.894        8.923
+u_detecter.u2.prox_dat0[1]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[1]     9.894        8.923
+u_detecter.u2.prox_dat0[2]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[2]     9.894        8.923
+u_detecter.u2.prox_dat0[3]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[3]     9.894        8.923
+u_detecter.u2.prox_dat0[4]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[4]     9.894        8.923
+u_detecter.u2.prox_dat0[5]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[5]     9.894        8.923
+u_detecter.u2.prox_dat0[6]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[6]     9.894        8.923
+u_detecter.u2.prox_dat0[7]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[7]     9.894        8.923
+u_detecter.u2.prox_dat0[8]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[8]     9.894        8.923
+u_detecter.u2.prox_dat0[9]     sensor|phase_clock_derived_clock     FD1S3AX     D       prox_dat[9]     9.894        8.923
+==========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      0.972
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.923
+
+    Number of logic level(s):                0
+    Starting point:                          u_detecter.u1.proximity_data[0] / Q
+    Ending point:                            u_detecter.u2.prox_dat0[0] / D
+    The start point is clocked by            sensor|phase_clock_derived_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            sensor|data_valid_derived_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+u_detecter.u1.proximity_data[0]     FD1P3DX     Q        Out     0.972     0.972 r     -         
+prox_dat[0]                         Net         -        -       -         -           1         
+u_detecter.u2.prox_dat0[0]          FD1S3AX     D        In      0.000     0.972 r     -         
+=================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                             Starting                                             Arrival          
+Instance                                     Reference     Type        Pin     Net                Time        Slack
+                                             Clock                                                                 
+-------------------------------------------------------------------------------------------------------------------
+u_traffic_light.u_segment.write_cnt[2]       System        FD1P3DX     Q       write_cnt[2]       1.220       2.958
+u_traffic_light.u_segment.write_cnt[3]       System        FD1P3DX     Q       write_cnt[3]       1.220       2.958
+u_traffic_light.u_segment.write_cnt[1]       System        FD1P3DX     Q       write_cnt[1]       1.188       2.990
+u_traffic_light.u_segment.write_cnt[4]       System        FD1P3DX     Q       write_cnt[4]       1.180       2.998
+u_traffic_light.u_segment.state[1]           System        FD1S3DX     Q       state[1]           1.252       4.015
+u_traffic_light.u_segment.write_cnt[5]       System        FD1P3DX     Q       write_cnt[5]       1.204       4.063
+u_traffic_light.u_segment.shift_data[9]      System        FD1P3IX     Q       shift_data[9]      0.972       5.209
+u_traffic_light.u_segment.shift_data[13]     System        FD1P3IX     Q       shift_data[13]     0.972       5.209
+u_traffic_light.u_segment.write_cnt[0]       System        FD1P3DX     Q       write_cnt[0]       1.180       5.335
+u_traffic_light.u_segment.shift_data[8]      System        FD1P3IX     Q       shift_data[8]      0.972       6.012
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                           Starting                                              Required          
+Instance                                   Reference     Type         Pin     Net                Time         Slack
+                                           Clock                                                                   
+-------------------------------------------------------------------------------------------------------------------
+u_traffic_light.u_segment.write_cnt[5]     System        FD1P3DX      D       write_cnt_s[5]     9.894        2.958
+u_traffic_light.u_segment.write_cnt[3]     System        FD1P3DX      D       write_cnt_s[3]     9.894        3.101
+u_traffic_light.u_segment.write_cnt[4]     System        FD1P3DX      D       write_cnt_s[4]     9.894        3.101
+u_traffic_light.u_segment.write_cnt[1]     System        FD1P3DX      D       write_cnt_s[1]     9.894        3.244
+u_traffic_light.u_segment.write_cnt[2]     System        FD1P3DX      D       write_cnt_s[2]     9.894        3.244
+u_traffic_light_u_segment_seg_dinio        System        OFS1P3DX     D       N_10_i             9.894        4.961
+u_traffic_light.u_segment.write_cnt[0]     System        FD1P3DX      D       write_cnt_s[0]     9.894        5.127
+u_traffic_light.u_segment.write_cnt[0]     System        FD1P3DX      SP      write_cnte         9.528        5.987
+u_traffic_light.u_segment.write_cnt[1]     System        FD1P3DX      SP      write_cnte         9.528        5.987
+u_traffic_light.u_segment.write_cnt[2]     System        FD1P3DX      SP      write_cnte         9.528        5.987
+===================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.894
+
+    - Propagation time:                      6.936
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 2.958
+
+    Number of logic level(s):                6
+    Starting point:                          u_traffic_light.u_segment.write_cnt[2] / Q
+    Ending point:                            u_traffic_light.u_segment.write_cnt[5] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+u_traffic_light.u_segment.write_cnt[2]               FD1P3DX      Q        Out     1.220     1.220 r     -         
+write_cnt[2]                                         Net          -        -       -         -           8         
+u_traffic_light.u_segment.write_cnt_RNIQA60L[4]      ORCALUT4     C        In      0.000     1.220 r     -         
+u_traffic_light.u_segment.write_cnt_RNIQA60L[4]      ORCALUT4     Z        Out     1.089     2.309 f     -         
+N_222_3                                              Net          -        -       -         -           2         
+u_traffic_light.u_segment.write_cnt_RNIQELL01[5]     ORCALUT4     A        In      0.000     2.309 f     -         
+u_traffic_light.u_segment.write_cnt_RNIQELL01[5]     ORCALUT4     Z        Out     1.249     3.557 f     -         
+write_cnt                                            Net          -        -       -         -           7         
+u_traffic_light.u_segment.write_cnt_cry_0[0]         CCU2D        A1       In      0.000     3.557 f     -         
+u_traffic_light.u_segment.write_cnt_cry_0[0]         CCU2D        COUT     Out     1.544     5.102 r     -         
+write_cnt_cry[0]                                     Net          -        -       -         -           1         
+u_traffic_light.u_segment.write_cnt_cry_0[1]         CCU2D        CIN      In      0.000     5.102 r     -         
+u_traffic_light.u_segment.write_cnt_cry_0[1]         CCU2D        COUT     Out     0.143     5.245 r     -         
+write_cnt_cry[2]                                     Net          -        -       -         -           1         
+u_traffic_light.u_segment.write_cnt_cry_0[3]         CCU2D        CIN      In      0.000     5.245 r     -         
+u_traffic_light.u_segment.write_cnt_cry_0[3]         CCU2D        COUT     Out     0.143     5.388 r     -         
+write_cnt_cry[4]                                     Net          -        -       -         -           1         
+u_traffic_light.u_segment.write_cnt_s_0[5]           CCU2D        CIN      In      0.000     5.388 r     -         
+u_traffic_light.u_segment.write_cnt_s_0[5]           CCU2D        S0       Out     1.549     6.936 r     -         
+write_cnt_s[5]                                       Net          -        -       -         -           1         
+u_traffic_light.u_segment.write_cnt[5]               FD1P3DX      D        In      0.000     6.936 r     -         
+===================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 288MB peak: 291MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 288MB peak: 291MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-4
+
+Register bits: 326 of 4320 (8%)
+PIC Latch:       0
+I/O cells:       22
+
+
+Details:
+BB:             1
+CCU2D:          99
+FD1P3AX:        20
+FD1P3BX:        5
+FD1P3DX:        105
+FD1P3IX:        6
+FD1S3AX:        32
+FD1S3BX:        6
+FD1S3DX:        142
+FD1S3IX:        3
+GSR:            1
+IB:             2
+IFS1P3DX:       1
+INV:            5
+L6MUX21:        1
+OB:             19
+OFS1P3BX:       1
+OFS1P3DX:       5
+ORCALUT4:       363
+PFUMX:          4
+PUR:            1
+VHI:            8
+VLO:            8
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 291MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Mon Feb 24 10:02:46 2025
+
+###########################################################]

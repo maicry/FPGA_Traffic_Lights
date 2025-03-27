@@ -1,0 +1,46 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\impl1\\synwork\\LatticeDiamond__Fusion_impl1_comp.srs|-top|merged_system|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-I|D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion|-I|D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\impl1\\|-I|D:\\Program Files\\Lattice\\synpbase\\lib|-v2001|-devicelib|D:\\Program Files\\Lattice\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|D:\\Program Files\\Lattice\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001|-lib|work|-fv2001"
+#CUR:"D:\\Program Files\\Lattice\\synpbase\\bin64\\c_ver.exe":1727134360
+#CUR:"D:\\Program Files\\Lattice\\synpbase\\lib\\lucent\\machxo2.v":1726552933
+#CUR:"D:\\Program Files\\Lattice\\synpbase\\lib\\lucent\\pmi_def.v":1727134390
+#CUR:"D:\\Program Files\\Lattice\\synpbase\\lib\\vlog\\hypermods.v":1727134415
+#CUR:"D:\\Program Files\\Lattice\\synpbase\\lib\\vlog\\scemi_objects.v":1727134415
+#CUR:"D:\\Program Files\\Lattice\\synpbase\\lib\\vlog\\scemi_pipes.svh":1727134415
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\beeper.v":1739278776
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\controller.v":1739500878
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\detecter.v":1739500910
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\merged_system.v":1740362488
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\segment.v":1740317318
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\sensor.v":1740318513
+#CUR:"D:\\Data\\Desktop\\Cyberspace 2024-2025\\ProjectCode\\LatticeDiamond__Fusion\\source\\traffic_light.v":1740362546
+#CUR:"segment_seg_data_16284_initial_block":1740362558
+0			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v" verilog
+1			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v" verilog
+2			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v" verilog
+3			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\merged_system.v" verilog
+4			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v" verilog
+5			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v" verilog
+6			"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 0 1 5
+3 2 6
+4 -1
+5 -1
+6 4 0
+#Dependency Lists(Users Of)
+0 6 2
+1 2
+2 3
+3 -1
+4 6
+5 2
+6 3
+#Design Unit to File Association
+module work segment 4
+module work traffic_light 6
+module work merged_system 3
+module work sensor 5
+module work detecter 2
+module work controller 1
+module work beeper 0

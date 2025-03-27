@@ -1,0 +1,30 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Feb 24 10:03:33 2025 *
+NOTE DESIGN NAME: merged_system *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS i2c_sda : B8 : inout *
+NOTE PINS red_light1 : M2 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS led[7] : P9 : out *
+NOTE PINS led[6] : N9 : out *
+NOTE PINS led[5] : N10 : out *
+NOTE PINS led[4] : P11 : out *
+NOTE PINS led[3] : M11 : out *
+NOTE PINS led[2] : P12 : out *
+NOTE PINS led[1] : M12 : out *
+NOTE PINS led[0] : N13 : out *
+NOTE PINS i2c_scl : C8 : out *
+NOTE PINS bee : N4 : out *
+NOTE PINS seg_din : P13 : out *
+NOTE PINS seg_sck : M4 : out *
+NOTE PINS seg_rck : P3 : out *
+NOTE PINS blue_light2 : P4 : out *
+NOTE PINS green_light2 : N3 : out *
+NOTE PINS red_light2 : M3 : out *
+NOTE PINS blue_light1 : P2 : out *
+NOTE PINS green_light1 : N2 : out *
+NOTE PINS rst_n : N14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

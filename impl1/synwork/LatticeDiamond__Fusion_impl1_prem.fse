@@ -1,0 +1,46 @@
+
+fsm_encoding {9570573} sequential
+
+fsm_state_encoding {9570573} 00 {00}
+
+fsm_state_encoding {9570573} 01 {01}
+
+fsm_state_encoding {9570573} 10 {10}
+
+fsm_registers {9570573} {state[1]}  {state[0]} 
+
+fsm_encoding {11620622} sequential
+
+fsm_state_encoding {11620622} GREEN_LIGHT {0}
+
+fsm_state_encoding {11620622} RED_LIGHT {1}
+
+fsm_registers {11620622} {current_state[0]} 
+
+fsm_encoding {10550551} onehot
+
+fsm_state_encoding {10550551} IDLE_STATE {000000000001}
+
+fsm_state_encoding {10550551} MAIN_STATE {000000000010}
+
+fsm_state_encoding {10550551} MODE1_STATE {000000000100}
+
+fsm_state_encoding {10550551} MODE2_STATE {000000001000}
+
+fsm_state_encoding {10550551} START_STATE {000000010000}
+
+fsm_state_encoding {10550551} WRITE_STATE {000000100000}
+
+fsm_state_encoding {10550551} READ_STATE {000001000000}
+
+fsm_state_encoding {10550551} STOP_STATE {000010000000}
+
+fsm_state_encoding {10550551} DELAY_STATE {000100000000}
+
+fsm_state_encoding {10550551} 1001 {001000000000}
+
+fsm_state_encoding {10550551} 1010 {010000000000}
+
+fsm_state_encoding {10550551} 1011 {100000000000}
+
+fsm_registers {10550551} {current_state[11]}  {current_state[10]}  {current_state[9]}  {current_state[8]}  {current_state[7]}  {current_state[6]}  {current_state[5]}  {current_state[4]}  {current_state[3]}  {current_state[2]}  {current_state[1]}  {current_state[0]} 

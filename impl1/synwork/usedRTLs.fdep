@@ -1,0 +1,11 @@
+#List of actual used RTLs.
+
+File                                                                                                    Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\merged_system.v"     verilog                      IN PROJECT
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\detecter.v"          verilog                      IN PROJECT
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\beeper.v"            verilog                      IN PROJECT
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\controller.v"        verilog                      IN PROJECT
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\sensor.v"            verilog                      IN PROJECT
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\traffic_light.v"     verilog                      IN PROJECT
+"D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\source\segment.v"           verilog                      IN PROJECT

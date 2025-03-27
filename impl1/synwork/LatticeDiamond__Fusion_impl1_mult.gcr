@@ -1,0 +1,53 @@
+i clk
+m 0 0
+u 20 135
+p {p:clk}{t:u_traffic_light.clk}{p:u_traffic_light.clk}{t:u_traffic_light.current_state[0].C}
+e ckid0_0 {t:u_traffic_light.current_state[0].C} dffre
+c ckid0_0 {p:clk} port Unsupported/too complex instance on clock path
+i u_detecter.u1.data_valid_i
+m 0 0
+u 3 48
+n ckid0_1 {t:u_detecter.u2.prox_dat2[15:0].C} Derived clock on input (not legal for GCC)
+p {t:u_detecter.u1.data_valid.Q[0]}{t:u_detecter.u1.data_valid_derived_clock.I[0]}{t:u_detecter.u1.data_valid_derived_clock.OUT[0]}{p:u_detecter.u1.data_valid}{t:u_detecter.u1.data_valid}{t:u_detecter.u2.dat_valid}{p:u_detecter.u2.dat_valid}{t:u_detecter.u2.prox_dat2[15:0].C}
+e ckid0_1 {t:u_detecter.u2.prox_dat2[15:0].C} dffe
+d ckid0_2 {t:u_detecter.u1.data_valid.Q[0]} dffre Derived clock on input (not legal for GCC)
+i u_detecter.u1.phase_clock_i
+m 0 0
+u 38 145
+n ckid0_3 {t:u_detecter.u1.current_state[11].C} Derived clock on input (not legal for GCC)
+p {t:u_detecter.u1.phase_clock.Q[0]}{t:u_detecter.u1.phase_clock_derived_clock.I[0]}{t:u_detecter.u1.phase_clock_derived_clock.OUT[0]}{t:u_detecter.u1.current_state[11].C}
+e ckid0_3 {t:u_detecter.u1.current_state[11].C} dffr
+d ckid0_4 {t:u_detecter.u1.phase_clock.Q[0]} dffre Derived clock on input (not legal for GCC)
+i u_traffic_light.u_segment.un5_clk_40_i
+m 0 0
+u 9 24
+n ckid0_5 {t:u_traffic_light.u_segment.state[1].C} Clock source is invalid for GCC
+p {t:u_traffic_light.u_segment.un5_clk_40.OUT}{t:u_traffic_light.u_segment.un5_clk_40_i_buf_i.I[0]}{t:u_traffic_light.u_segment.un5_clk_40_i_buf_i.OUT[0]}{t:u_traffic_light.u_segment.state[1].C}
+e ckid0_5 {t:u_traffic_light.u_segment.state[1].C} dffr
+d ckid0_5 {t:u_traffic_light.u_segment.un5_clk_40.OUT} lt Unable to find a clock in input cone
+i u_traffic_light.u_segment.clk_div_cnt[8]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[7]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[6]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[5]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[4]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[3]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[2]
+m 0 0
+u 0 0
+i u_traffic_light.u_segment.clk_div_cnt[1]
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

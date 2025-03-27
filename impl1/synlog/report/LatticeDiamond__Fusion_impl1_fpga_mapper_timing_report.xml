@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\impl1\synlog\LatticeDiamond__Fusion_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>merged_system|clk</data>
+<data>100.0 MHz</data>
+<data>105.7 MHz</data>
+<data>0.537</data>
+</row>
+<row>
+<data>sensor|data_valid_derived_clock</data>
+<data>100.0 MHz</data>
+<data>251.2 MHz</data>
+<data>6.186</data>
+</row>
+<row>
+<data>sensor|phase_clock_derived_clock</data>
+<data>100.0 MHz</data>
+<data>317.5 MHz</data>
+<data>8.923</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>142.0 MHz</data>
+<data>2.958</data>
+</row>
+</report_table>

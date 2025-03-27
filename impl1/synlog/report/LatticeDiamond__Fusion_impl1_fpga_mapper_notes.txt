@@ -1,0 +1,40 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":89:54:89:70|ROM shift_data_6[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":82:54:82:70|ROM shift_data_2[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":89:54:89:70|ROM shift_data_6[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: MO106 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":89:54:89:70|Found ROM shift_data_6[14:8] (in view: work.segment(verilog)) with 16 words by 7 bits.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":82:54:82:70|ROM shift_data_2[14:8] (in view: work.segment(verilog)) mapped in logic.
+@N: MO106 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":82:54:82:70|Found ROM shift_data_2[14:8] (in view: work.segment(verilog)) with 2 words by 7 bits.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":106:16:106:19|ROM current_state_2[3:1] (in view: work.sensor(verilog)) mapped in logic.
+@N: BZ173 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":106:16:106:19|ROM current_state_2[3:1] (in view: work.sensor(verilog)) mapped in logic.
+@N: MO106 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":106:16:106:19|Found ROM current_state_2[3:1] (in view: work.sensor(verilog)) with 12 words by 3 bits.
+@N: MF237 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\traffic_light.v":114:19:114:39|Generating a type rem remainder 
+@N: FX493 |Applying initial value "0" on instance sec_pulse.
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\beeper.v":16:0:16:5|Found counter in view:work.beeper_0(verilog) instance freq_cnt[14:0] 
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\segment.v":57:0:57:5|Found counter in view:work.segment(verilog) instance write_cnt[5:0] 
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[6] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[5] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[4] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[3] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[2] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[1] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\controller.v":12:0:12:5|Removing sequential instance u2.prox_dat2[0] (in view: work.detecter(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Found counter in view:work.sensor(verilog) instance mode2_phase[3:0] 
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Found counter in view:work.sensor(verilog) instance main_phase[3:0] 
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance current_state[9] (in view: work.sensor(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance reg_data[4] (in view: work.sensor(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance device_addr[0] (in view: work.sensor(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance reg_addr[4] (in view: work.sensor(verilog)) because it does not drive other instances.
+@N: MO231 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\beeper.v":16:0:16:5|Found counter in view:work.beeper_1(verilog) instance freq_cnt[14:0] 
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance u_detecter.u1.current_state[10] (in view: work.merged_system(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance u_detecter.u1.reg_addr[6] (in view: work.merged_system(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\data\desktop\cyberspace 2024-2025\projectcode\latticediamond__fusion\source\sensor.v":55:0:55:5|Removing sequential instance u_detecter.u1.device_addr[3] (in view: work.merged_system(verilog)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\Data\Desktop\Cyberspace 2024-2025\ProjectCode\LatticeDiamond__Fusion\impl1\LatticeDiamond__Fusion_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock sensor|phase_clock_derived_clock with period 10.00ns 
+@N: MT615 |Found clock sensor|data_valid_derived_clock with period 10.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

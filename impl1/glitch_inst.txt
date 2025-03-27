@@ -1,0 +1,1 @@
+Potential Glitch can occur at the output of instance i:u_traffic_light.u_segment.un5_clk_40 
